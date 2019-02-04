@@ -1,0 +1,76 @@
+{
+  "name": "react-lightsaber",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "dist/react-lightsaber.umd.js",
+  "module": "dist/react-lightsaber.es5.js",
+  "typings": "dist/types/react-lightsaber.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "Arnaud Zheng <arnaud.zg@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnaud-zg/react-lightsaber.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint  --project tsconfig.json -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
+    "prebuild": "rimraf dist",
+    "build:library": "tsc --module commonjs && rollup -c rollup.config.ts",
+    "watch:library": "rollup -c rollup.config.ts -w",
+    "test:coverage:report": "npm run test:coverage && cat ./coverage/lcov.info | codacy-coverage",
+    "test:coverage": "npm run test -- --coverage",
+    "test": "jest --env=jsdom --config jest.config.json",
+    "release": "standard-version",
+    "precommit": "lint-staged",
+    "prepush": "npm run test && npm run build:library"
+  },
+  "lint-staged": {
+    "{src,test}/**/*.ts": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "jest": {
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$"
+  },
+  "devDependencies": {
+    "@types/jest": "23.3.2",
+    "@types/node": "10.11.0",
+    "@types/react": "16.8.1",
+    "@types/react-test-renderer": "16.0.3",
+    "@types/rollup-plugin-commonjs": "9.2.0",
+    "@types/rollup-plugin-json": "3.0.1",
+    "@types/rollup-plugin-node-resolve": "4.0.0",
+    "@types/rollup-plugin-sourcemaps": "0.4.0",
+    "codacy-coverage": "3.4.0",
+    "colors": "1.3.3",
+    "cross-env": "5.2.0",
+    "husky": "1.0.1",
+    "jest": "23.6.0",
+    "jsdom": "13.2.0",
+    "lint-staged": "8.0.0",
+    "prettier": "1.14.3",
+    "react": "^16.7.0",
+    "react-test-renderer": "16.7.0",
+    "rimraf": "2.6.2",
+    "rollup": "0.67.0",
+    "rollup-plugin-commonjs": "9.1.8",
+    "rollup-plugin-json": "3.1.0",
+    "rollup-plugin-node-resolve": "3.4.0",
+    "rollup-plugin-sourcemaps": "0.4.2",
+    "rollup-plugin-typescript2": "0.18.0",
+    "standard-version": "4.4.0",
+    "ts-jest": "23.10.2",
+    "ts-node": "7.0.1",
+    "tslint": "5.11.0",
+    "tslint-config-prettier": "1.15.0",
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-react": "3.6.0",
+    "typescript": "3.0.3"
+  },
+  "dependencies": {}
+}

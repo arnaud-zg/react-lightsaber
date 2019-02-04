@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Method.life() should return a valid object 1`] = `
+Object {
+  "status": "ok",
+}
+`;

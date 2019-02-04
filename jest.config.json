@@ -1,0 +1,17 @@
+{
+  "collectCoverageFrom": ["src/**/*.{ts,tsx}"],
+  "coveragePathIgnorePatterns": ["/node_modules/", "/test/"],
+  "coverageReporters": ["json", "lcov", "text-summary"],
+  "coverageThreshold": {
+    "global": {
+      "branches": 90,
+      "functions": 95,
+      "lines": 95,
+      "statements": 95
+    }
+  },
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "transform": { "^.+\\.(t|j)sx?$": "ts-jest" }
+}
