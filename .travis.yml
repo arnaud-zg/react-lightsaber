@@ -17,7 +17,7 @@ script:
   - npm run test:coverage:report -- --username $CODACY_USERNAME --projectName $CODACY_PROJECT_NAME
 
 before_deploy:
-  - npm run build
+  - npm run build:library
 
 deploy:
   provider: npm
