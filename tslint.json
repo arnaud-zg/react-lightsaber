@@ -1,0 +1,6 @@
+{
+  "extends": ["tslint-eslint-rules", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": ["node_modules/"]
+  }
+}
