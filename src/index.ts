@@ -1,4 +1,4 @@
-export { default as lightsaber } from './lightsaber'
+export { default as Lightsaber } from './Lightsaber/index'
 
 export const life = (): { status: string } => ({ status: 'ok' })
 

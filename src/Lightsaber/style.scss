@@ -1,0 +1,40 @@
+@import '../_common/variable.scss';
+
+.lightsaber-component {
+  position: relative;
+
+  input[type='checkbox'] {
+    &:after {
+      height: 250px;
+      width: 10px;
+    }
+
+    .jedi {
+      display: block;
+    }
+
+    .jedi--yoda {
+      &:after {
+        background-color: $color-1;
+      }
+    }
+
+    .vader {
+      &:after {
+        background-color: $color-2;
+      }
+    }
+
+    .windu {
+      &:after {
+        background-color: $color-3;
+      }
+    }
+
+    .obi-wan {
+      &:after {
+        background-color: $color-4;
+      }
+    }
+  }
+}
