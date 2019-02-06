@@ -1,7 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component.Lightsaber() should render component 1`] = `
-<div>
-  Lightsaber
+<div
+  className="lightsaber-component"
+>
+  <input
+    className="jedi jedi--obi-wan"
+    id="1"
+    type="checkbox"
+  />
 </div>
 `;
