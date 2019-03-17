@@ -1,7 +1,7 @@
 import React from 'react'
 import './color.scss'
-import './style.scss'
 import { ELightsaberOwners, LIGHTSABER_COLOR_CLASSNAME_MAPPING } from './owner'
+import './style.scss'
 
 interface IProps {
   id: string
@@ -50,10 +50,10 @@ class Lightsaber extends React.Component<IProps, IState> {
     return (
       <div className="lightsaber-component">
         <input
-          type="checkbox"
+          defaultChecked={checked}
           id={id}
-          checked={!!checked}
           onClick={this.handleOnClick}
+          type="checkbox"
         />
 
         <label htmlFor={id} className="lightsaber-component__controller">

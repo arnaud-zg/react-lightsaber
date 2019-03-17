@@ -5,7 +5,7 @@ exports[`Component.Lightsaber() should render component 1`] = `
   className="lightsaber-component"
 >
   <input
-    checked={false}
+    defaultChecked={false}
     id="1"
     onClick={[Function]}
     type="checkbox"
@@ -25,3 +25,5 @@ exports[`Component.Lightsaber() should render component 1`] = `
   />
 </div>
 `;
+
+exports[`Component.Lightsaber() should test click event without onClick parameter 1`] = `"<div class=\\"lightsaber-component\\"><input type=\\"checkbox\\" id=\\"2\\" checked=\\"\\"/><label for=\\"2\\" class=\\"lightsaber-component__controller\\"><span class=\\"lightsaber-component__switch\\">¦¦¦¦</span></label><span class=\\"lightsaber-component__blade peace\\"></span></div>"`;
