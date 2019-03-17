@@ -5,9 +5,23 @@ exports[`Component.Lightsaber() should render component 1`] = `
   className="lightsaber-component"
 >
   <input
-    className="jedi jedi--obi-wan"
+    checked={false}
     id="1"
+    onClick={[Function]}
     type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade justice"
   />
 </div>
 `;
