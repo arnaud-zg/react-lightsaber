@@ -83,3 +83,6 @@ typings/
 .DS_Store
 dist
 .rpt2_cache
+
+# Storybook
+docs

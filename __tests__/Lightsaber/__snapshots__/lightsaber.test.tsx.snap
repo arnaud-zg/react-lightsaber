@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component.Lightsaber() should render component 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade justice"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should test click event without onClick parameter 1`] = `"<div class=\\"lightsaber-component\\"><input type=\\"checkbox\\" id=\\"2\\" checked=\\"\\"/><label for=\\"2\\" class=\\"lightsaber-component__controller\\"><span class=\\"lightsaber-component__switch\\">¦¦¦¦</span></label><span class=\\"lightsaber-component__blade peace\\"></span></div>"`;
