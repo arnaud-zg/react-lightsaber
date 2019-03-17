@@ -1,0 +1,58 @@
+.lightsaber-component {
+  .lightsaber-component__blade {
+    // PEACE THROUGH FORCE
+    &.peace {
+      color: #0c9655;
+    }
+
+    // EVIL AND POWER
+    &.evil {
+      color: #ca1b21;
+    }
+
+    // JUSTICE AND PROTECTION
+    &.justice {
+      color: #52b6e0;
+    }
+
+    // MORAL AMBIGUITY
+    &.moral {
+      color: #bd80bd;
+    }
+
+    // INTRIGUE AND PURSUIT
+    &.intrigue {
+      color: #fff8c9;
+    }
+
+    // NEGOCIATION
+    &.negocition {
+      color: #bb4923;
+    }
+
+    // STRENGTH
+    &.strength {
+      color: #f7df41;
+    }
+
+    // PHYSICAL STRENGTH
+    &.physical {
+      color: #bd7a3a;
+    }
+
+    // CALM AND CLEAR
+    &.calm {
+      color: #bbbbbd;
+    }
+
+    // SELF OBSESSION
+    &.self {
+      color: #1c1c1e;
+    }
+
+    // OBEDIENCE AND SERVICE
+    &.obedience {
+      color: #ffffff;
+    }
+  }
+}

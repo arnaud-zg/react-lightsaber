@@ -1,40 +1,139 @@
 @import '../_common/variable.scss';
 
 .lightsaber-component {
+  display: flex;
+  flex-direction: row;
+  font-family: Courier, monospace;
+  font-size: 100%;
+  margin: 10px 0;
   position: relative;
+  min-width: 330px;
 
   input[type='checkbox'] {
-    &:after {
-      height: 250px;
-      width: 10px;
+    visibility: hidden;
+
+    &:not(:checked) ~ .lightsaber-component__blade {
+      flex: 5;
+
+      &:after {
+        transition-duration: 0.3s;
+        width: 0%;
+      }
     }
 
-    .jedi {
+    &:checked {
+      ~ .lightsaber-component__controller {
+        .lightsaber-component__switch {
+          &:before {
+            color: $color-3;
+          }
+        }
+      }
+    }
+  }
+
+  .lightsaber-component__blade {
+    flex: 5;
+    position: relative;
+    z-index: $layer-level-2;
+
+    &:after,
+    &:before {
+      content: '';
+      position: absolute;
+      transition-property: width;
+    }
+
+    &:before {
+      background-color: $color-5;
+      border-radius: 0 10px 10px 0;
       display: block;
+      filter: blur(1px);
+      height: 50%;
+      top: 25%;
+      transition-duration: 0.15s;
+      width: 98%;
+      z-index: $layer-level-3;
     }
 
-    .jedi--yoda {
+    &:after {
+      background-color: currentColor;
+      border-radius: 0 10px 10px 0;
+      display: block;
+      filter: blur(4px);
+      height: 100%;
+      transition-duration: 0.3s;
+      width: 100%;
+      z-index: $layer-level-2;
+    }
+  }
+
+  .lightsaber-component__controller {
+    background-color: $color-2;
+    color: $color-4;
+    cursor: pointer;
+    flex: 1;
+    position: relative;
+    user-select: none;
+    z-index: $layer-level-3;
+    max-width: 15%;
+
+    .lightsaber-component__switch {
+      color: $color-1;
+      content: '¦¦¦¦';
+      font-size: 150%;
+      font-weight: bold;
+      letter-spacing: -0.65rem;
+      padding-left: 25%;
+
+      &:after,
+      &:before {
+        position: absolute;
+      }
+
+      &:before {
+        color: $color-4;
+        content: '●';
+        font-size: 130%;
+        font-weight: bold;
+        left: -2%;
+        top: -10%;
+        z-index: $layer-level-3;
+      }
+
       &:after {
-        background-color: $color-1;
+        color: $color-2;
+        content: '◀';
+        font-size: 250%;
+        right: 0;
+        top: -95%;
+        z-index: $layer-level-2;
       }
     }
 
-    .vader {
-      &:after {
-        background-color: $color-2;
-      }
+    &:after,
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: $layer-level-3;
     }
 
-    .windu {
-      &:after {
-        background-color: $color-3;
-      }
+    &:before {
+      background-color: $color-1;
+      border-radius: 10px 0 0 10px;
+      height: 90%;
+      left: -10%;
+      top: 5%;
+      width: 10%;
     }
 
-    .obi-wan {
-      &:after {
-        background-color: $color-4;
-      }
+    &:after {
+      background-color: $color-2;
+      height: 80%;
+      right: -30%;
+      top: 10%;
+      width: 20%;
     }
   }
 }

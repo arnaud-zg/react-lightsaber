@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ELightsaberColorClassname should make a snapshot 1`] = `
+Object {
+  "CALM": "calm",
+  "EVIL": "evil",
+  "INTRIGUE": "intrigue",
+  "JUSTICE": "justice",
+  "MORAL": "moral",
+  "NEGOCIATION": "negociation",
+  "OBEDIENCE": "obedience",
+  "PEACE": "peace",
+  "PHYSICAL": "physical",
+  "SELF": "self",
+  "STRENGTH": "strength",
+}
+`;
+
+exports[`ELightsaberOwners should make a snapshot 1`] = `
+Object {
+  "ANAKIN_SKYWALKER": "ANAKIN_SKYWALKER",
+  "DARTH_MAUL": "DARTH_MAUL",
+  "DARTH_SIDIOUS": "DARTH_SIDIOUS",
+  "DARTH_VADER": "DARTH_VADER",
+  "IMPERIAL_KNIGHTS": "IMPERIAL_KNIGHTS",
+  "KYLO_REN": "KYLO_REN",
+  "LOWBACCA": "LOWBACCA",
+  "LUKE_SKYWALKER": "LUKE_SKYWALKER",
+  "MACE_WINDU": "MACE_WINDU",
+  "MARA_JADE_SKYWALKER": "MARA_JADE_SKYWALKER",
+  "OBI_WAN": "OBI_WAN",
+  "PLO_KOON": "PLO_KOON",
+  "PRE_VIZSLA": "PRE_VIZSLA",
+  "QIU_GON_JINN": "QIU_GON_JINN",
+  "QU_RAHN": "QU_RAHN",
+  "TERA_SINUBE": "TERA_SINUBE",
+  "YADDLE": "YADDLE",
+  "YARAEL_POOF": "YARAEL_POOF",
+  "YODA": "YODA",
+}
+`;
