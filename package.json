@@ -17,7 +17,7 @@
   "license": "MIT",
   "scripts": {
     "build:library": "tsc --module commonjs && rollup -c rollup.config.ts",
-    "build:storybook": "build-storybook -c .storybook -o public",
+    "build:storybook": "build-storybook -c .storybook -o docs",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint  --project tsconfig.json -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
     "prebuild": "rimraf dist",
