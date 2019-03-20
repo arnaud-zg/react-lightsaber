@@ -2,8 +2,8 @@ import commonjs from 'rollup-plugin-commonjs'
 import json from 'rollup-plugin-json'
 import resolve from 'rollup-plugin-node-resolve'
 import postcss from 'rollup-plugin-postcss'
-import sourceMaps from 'rollup-plugin-sourcemaps'
 import typescript from 'rollup-plugin-typescript2'
+import { uglify } from 'rollup-plugin-uglify'
 
 const pkg = require('./package.json')
 
@@ -22,15 +22,6 @@ export default {
       },
       exports: 'named',
     },
-    {
-      file: pkg.module,
-      format: 'es',
-      sourcemap: true,
-      globals: {
-        react: 'React',
-      },
-      exports: 'named',
-    },
   ],
   external: ['react'],
   watch: {
@@ -41,10 +32,10 @@ export default {
     typescript({ useTsconfigDeclarationDir: true }),
     commonjs(),
     resolve(),
-    sourceMaps(),
     postcss({
       inject: true,
       minimize: true,
     }),
+    uglify(),
   ],
 }
