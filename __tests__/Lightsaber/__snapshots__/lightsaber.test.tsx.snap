@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component.Lightsaber() should render component 1`] = `
+exports[`Component.Lightsaber() should render component with owner: ANAKIN_SKYWALKER 1`] = `
 <div
   className="lightsaber-component"
 >
@@ -22,6 +22,474 @@ exports[`Component.Lightsaber() should render component 1`] = `
   </label>
   <span
     className="lightsaber-component__blade justice"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: DARTH_MAUL 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade evil"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: DARTH_SIDIOUS 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade evil"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: DARTH_VADER 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade evil"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: IMPERIAL_KNIGHTS 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade obedience"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: KYLO_REN 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade evil"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: LOWBACCA 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade physical"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: LUKE_SKYWALKER 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade peace"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: MACE_WINDU 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade moral"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: MARA_JADE_SKYWALKER 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade moral"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: OBI_WAN 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade justice"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: PLO_KOON 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade intrigue"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: PRE_VIZSLA 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade self"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: QIU_GON_JINN 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade peace"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: QU_RAHN 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade strength"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: TERA_SINUBE 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade calm"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: YADDLE 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade negociation"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: YARAEL_POOF 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade intrigue"
+  />
+</div>
+`;
+
+exports[`Component.Lightsaber() should render component with owner: YODA 1`] = `
+<div
+  className="lightsaber-component"
+>
+  <input
+    defaultChecked={false}
+    id="1"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="lightsaber-component__controller"
+    htmlFor="1"
+  >
+    <span
+      className="lightsaber-component__switch"
+    >
+      ¦¦¦¦
+    </span>
+  </label>
+  <span
+    className="lightsaber-component__blade peace"
   />
 </div>
 `;
