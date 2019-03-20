@@ -8,15 +8,19 @@ import { ELightsaberOwners } from '../../src/Lightsaber/owner'
 configure({ adapter: new Adapter() })
 
 describe('Component.Lightsaber()', () => {
-  it('should render component', () => {
-    const component = ReactRenderer.create(
-      <Lightsaber id="1" owner={ELightsaberOwners.OBI_WAN} />,
-    )
+  Object.keys(ELightsaberOwners).forEach((ownerKey) => {
+    const owner = ELightsaberOwners[ownerKey as ELightsaberOwners]
 
-    let tree = component.toJSON()
+    it(`should render component with owner: ${owner}`, () => {
+      const component = ReactRenderer.create(
+        <Lightsaber id="1" owner={owner} />,
+      )
 
-    expect(tree).toBeTruthy()
-    expect(tree).toMatchSnapshot()
+      let tree = component.toJSON()
+
+      expect(tree).toBeTruthy()
+      expect(tree).toMatchSnapshot()
+    })
   })
 
   it('should catch click callback', () => {
