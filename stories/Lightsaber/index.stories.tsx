@@ -3,8 +3,8 @@ import { storiesOf } from '@storybook/react'
 import Lightsaber from '../../src/Lightsaber'
 import { ELightsaberOwners } from '../../src/Lightsaber/owner'
 
-Object.keys(ELightsaberOwners).map((key) => {
-  const owner = ELightsaberOwners[key]
+Object.keys(ELightsaberOwners).map((ownerKey) => {
+  const owner = ELightsaberOwners[ownerKey as ELightsaberOwners]
 
   storiesOf('Lightsaber', module).add(`of ${owner}`, () => (
     <>
