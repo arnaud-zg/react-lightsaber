@@ -1,7 +1,7 @@
 import commonjs from 'rollup-plugin-commonjs'
 import json from 'rollup-plugin-json'
 import resolve from 'rollup-plugin-node-resolve'
-import sass from 'rollup-plugin-sass'
+import postcss from 'rollup-plugin-postcss'
 import sourceMaps from 'rollup-plugin-sourcemaps'
 import typescript from 'rollup-plugin-typescript2'
 
@@ -42,6 +42,9 @@ export default {
     commonjs(),
     resolve(),
     sourceMaps(),
-    sass({ insert: true }),
+    postcss({
+      inject: true,
+      minimize: true,
+    }),
   ],
 }

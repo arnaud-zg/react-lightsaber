@@ -1,1 +1,1 @@
-declare module 'rollup-plugin-sass'
+declare module 'rollup-plugin-postcss'
