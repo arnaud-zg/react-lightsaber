@@ -64,7 +64,7 @@
     "lint-staged": "8.0.0",
     "node-sass": "4.11.0",
     "prettier": "1.16.4",
-    "react-test-renderer": "16.7.0",
+    "react-test-renderer": "16.8.6",
     "rimraf": "2.6.3",
     "rollup": "0.68.2",
     "rollup-plugin-commonjs": "9.2.2",
@@ -85,7 +85,7 @@
     "typescript": "3.0.3"
   },
   "dependencies": {
-    "react": "16.8.4",
-    "react-dom": "16.8.3"
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
   }
 }
