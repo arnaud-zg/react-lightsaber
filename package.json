@@ -59,7 +59,7 @@
     "enzyme": "3.9.0",
     "enzyme-adapter-react-16": "1.11.2",
     "husky": "1.0.1",
-    "jest": "23.6.0",
+    "jest": "24.5.0",
     "jsdom": "13.2.0",
     "lint-staged": "8.0.0",
     "node-sass": "4.11.0",
