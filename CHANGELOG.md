@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.5](https://github.com/arnaud-zg/react-lightsaber/compare/v0.0.4...v0.0.5) (2019-04-07)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v16.8.6 ([#38](https://github.com/arnaud-zg/react-lightsaber/issues/38)) ([025eda6](https://github.com/arnaud-zg/react-lightsaber/commit/025eda6))
+* **switch:** set no height on switch pseudo elements ([#46](https://github.com/arnaud-zg/react-lightsaber/issues/46)) ([#59](https://github.com/arnaud-zg/react-lightsaber/issues/59)) ([1c760e6](https://github.com/arnaud-zg/react-lightsaber/commit/1c760e6))
+
+
+
 <a name="0.0.4"></a>
 ## [0.0.4](https://github.com/arnaud-zg/react-lightsaber/compare/v0.0.3...v0.0.4) (2019-03-31)
 
