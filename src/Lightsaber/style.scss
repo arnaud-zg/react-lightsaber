@@ -10,7 +10,7 @@
   min-width: 330px;
 
   input[type='checkbox'] {
-    visibility: hidden;
+    display: none;
 
     &:not(:checked) ~ .lightsaber-component__blade {
       flex: 5;
