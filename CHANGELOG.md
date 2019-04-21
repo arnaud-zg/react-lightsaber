@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.7](https://github.com/arnaud-zg/react-lightsaber/compare/v0.0.6...v0.0.7) (2019-04-21)
+
+
+### Bug Fixes
+
+* **style:** hide input on lightsaber component ([#80](https://github.com/arnaud-zg/react-lightsaber/issues/80)) ([#81](https://github.com/arnaud-zg/react-lightsaber/issues/81)) ([94e6bd1](https://github.com/arnaud-zg/react-lightsaber/commit/94e6bd1))
+
+
+
 ## [0.0.6](https://github.com/arnaud-zg/react-lightsaber/compare/v0.0.5...v0.0.6) (2019-04-14)
 
 
