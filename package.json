@@ -49,7 +49,7 @@
     "@types/rollup-plugin-commonjs": "9.2.0",
     "@types/rollup-plugin-json": "3.0.2",
     "@types/rollup-plugin-node-resolve": "4.0.0",
-    "@types/rollup-plugin-sourcemaps": "0.4.1",
+    "@types/rollup-plugin-sourcemaps": "0.4.2",
     "@types/storybook__react": "4.0.1",
     "babel-loader": "8.0.5",
     "codacy-coverage": "3.4.0",
