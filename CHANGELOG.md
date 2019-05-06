@@ -1,6 +1,16 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.0.10](https://github.com/arnaud-zg/react-lightsaber/compare/v0.0.9...v0.0.10) (2019-05-06)
+
+
+### Bug Fixes
+
+* **build:** make a separate style build instead of injecting css on react component ([#112](https://github.com/arnaud-zg/react-lightsaber/issues/112)) ([#113](https://github.com/arnaud-zg/react-lightsaber/issues/113)) ([156e7e1](https://github.com/arnaud-zg/react-lightsaber/commit/156e7e1))
+* **story:** add style dependency on story ([#115](https://github.com/arnaud-zg/react-lightsaber/issues/115)) ([4275448](https://github.com/arnaud-zg/react-lightsaber/commit/4275448))
+
+
 
 ## [0.0.9](https://github.com/arnaud-zg/react-lightsaber/compare/v0.0.8...v0.0.9) (2019-05-01)
 
