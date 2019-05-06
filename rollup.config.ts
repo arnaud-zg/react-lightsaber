@@ -1,7 +1,11 @@
+import babel from 'rollup-plugin-babel'
+import cleanup from 'rollup-plugin-cleanup'
 import commonjs from 'rollup-plugin-commonjs'
+import filesize from 'rollup-plugin-filesize'
 import json from 'rollup-plugin-json'
 import resolve from 'rollup-plugin-node-resolve'
-import postcss from 'rollup-plugin-postcss'
+import peerDepsExternal from 'rollup-plugin-peer-deps-external'
+import sourceMaps from 'rollup-plugin-sourcemaps'
 import typescript from 'rollup-plugin-typescript2'
 import { uglify } from 'rollup-plugin-uglify'
 
@@ -28,14 +32,15 @@ export default {
     include: 'src/**',
   },
   plugins: [
-    json(),
-    typescript({ useTsconfigDeclarationDir: true }),
+    babel({ exclude: 'node_modules/**' }),
+    cleanup(),
     commonjs(),
+    filesize(),
+    json(),
+    peerDepsExternal(),
     resolve(),
-    postcss({
-      inject: true,
-      minimize: true,
-    }),
+    sourceMaps(),
+    typescript({ useTsconfigDeclarationDir: true }),
     uglify(),
   ],
 }

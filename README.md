@@ -50,14 +50,21 @@ manually. The development version may be unstable.
 $ git clone git@github.com:arnaud-zg/react-lightsaber.git
 $ cd react-lightsaber
 $ npm install
+$ npm run build:style
 $ npm run build:library
 ```
 
 ## How to use
 
+### Component
+
 ```
 import ReactLightsaber from 'react-lightsaber'
 ```
+
+### Style
+
+Our main `css` file is located here 'react-lightsaber/index.css'.
 
 ## Running the tests
 
