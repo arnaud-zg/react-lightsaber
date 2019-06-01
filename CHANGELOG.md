@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/arnaud-zg/react-lightsaber/compare/v0.0.12...v0.0.13) (2019-06-01)
+
+
+### Bug Fixes
+
+* **lint:** enable prettier linter ([#147](https://github.com/arnaud-zg/react-lightsaber/issues/147)) ([8def17b](https://github.com/arnaud-zg/react-lightsaber/commit/8def17b))
+
+
+
 ### [0.0.12](https://github.com/arnaud-zg/react-lightsaber/compare/v0.0.11...v0.0.12) (2019-05-30)
 
 
