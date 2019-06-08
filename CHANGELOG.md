@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://github.com/arnaud-zg/react-lightsaber/compare/v0.0.13...v0.1.0) (2019-06-08)
+
+
+### Features
+
+* **visual-tdd:** add chromatic for visual TDD ([#163](https://github.com/arnaud-zg/react-lightsaber/issues/163)) ([23de863](https://github.com/arnaud-zg/react-lightsaber/commit/23de863))
+
+
+
 ### [0.0.13](https://github.com/arnaud-zg/react-lightsaber/compare/v0.0.12...v0.0.13) (2019-06-01)
 
 
