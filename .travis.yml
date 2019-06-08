@@ -16,7 +16,7 @@ script:
   - npm run build:library
   - npm run build:style
   - npm run test:coverage:report -- --username $CODACY_USERNAME --projectName $CODACY_PROJECT_NAME
-  - if [[ $(node --version | cut -d "v" -f 2) > 10 ]]; then npm run test:visual:tdd ; fi
+  - if [[ $(node --version | cut -d "v" -f 2) > 10.0.0 ]]; then npm run test:visual:tdd ; fi
 
 before_deploy:
   - if [ ! -d dist ]; then npm run build:library ; fi
