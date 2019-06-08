@@ -10,19 +10,35 @@ before_script:
 jobs:
   include:
     - stage: install dependency
+      node_js:
+        - 10
+        - 8
       script: npm ci
     - stage: check
+      node_js:
+        - 10
+        - 8
       script:
         - npm run format
         - npm run lint
     - stage: build
+      node_js:
+        - 10
+        - 8
       script:
         - npm run build:library
         - npm run build:style
-    - stage: test
+    - stage: testCoverage
+      node_js:
+        - 10
+        - 8
       script:
         - npm run test:coverage:report -- --username $CODACY_USERNAME --projectName $CODACY_PROJECT_NAME
-        - npm run test:chromatic
+    - stage: testVisualTDD
+      node_js:
+        - 10
+      script:
+        - npm run test:visual:tdd
 
 before_deploy:
   - if [ ! -d dist ]; then npm run build:library ; fi
