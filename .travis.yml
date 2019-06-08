@@ -16,11 +16,11 @@ script:
   - npm run build:library
   - npm run build:style
   - npm run test:coverage:report -- --username $CODACY_USERNAME --projectName $CODACY_PROJECT_NAME
+  - if [[ $(node --version | cut -d "v" -f 2) > 10 ]]; then npm run test:chromatic ; fi
 
 before_deploy:
   - if [ ! -d dist ]; then npm run build:library ; fi
   - if [ ! -d dist ]; then npm run build:style ; fi
-  - npm run test:chromatic
 
 deploy:
   provider: npm
