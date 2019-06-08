@@ -4,8 +4,8 @@ before_script:
   - echo "Start CI"
 
 node_js:
-  - 10
   - 8
+  - 10
 
 install:
   - npm ci
