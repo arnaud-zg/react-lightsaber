@@ -7,16 +7,22 @@ node_js:
 before_script:
   - echo "Start CI"
 
-install:
-  - npm ci
-
-script:
-  - npm run format
-  - npm run lint
-  - npm run build:library
-  - npm run build:style
-  - npm run test:coverage:report -- --username $CODACY_USERNAME --projectName $CODACY_PROJECT_NAME
-  - npm run test:chromatic
+jobs:
+  include:
+    - stage: install dependency
+      script: npm ci
+    - stage: check
+      script:
+        - npm run format
+        - npm run lint
+    - stage: build
+      script:
+        - npm run build:library
+        - npm run build:style
+    - stage: test
+      script:
+        - npm run test:coverage:report -- --username $CODACY_USERNAME --projectName $CODACY_PROJECT_NAME
+        - npm run test:chromatic
 
 before_deploy:
   - if [ ! -d dist ]; then npm run build:library ; fi
