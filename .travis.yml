@@ -3,24 +3,29 @@ language: node_js
 before_script:
   - echo "Start CI"
 
-node_js:
-  - 8
-  - 10
-
 install:
   - npm ci
 
 jobs:
   include:
     - stage: check
+      node_js:
+        - 8
+        - 10
       script:
         - npm run format
         - npm run lint
     - stage: build
+      node_js:
+        - 8
+        - 10
       script:
         - npm run build:library
         - npm run build:style
     - stage: testCoverage
+      node_js:
+        - 8
+        - 10
       script:
         - npm run test:coverage:report -- --username $CODACY_USERNAME --projectName $CODACY_PROJECT_NAME
     - stage: testVisualTDD
