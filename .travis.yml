@@ -13,15 +13,15 @@ install:
   - npm ci
 
 jobs:
-  include.
+  include:
     - stage: check
-    name: check
-    node_js:
-      - 8
-      - 10
-    script:
-      - npm run format
-      - npm run lint
+      name: check
+      node_js:
+        - 8
+        - 10
+      script:
+        - npm run format
+        - npm run lint
 
     - stage: compile
     name: build
