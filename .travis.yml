@@ -1,10 +1,8 @@
 language: node_js
 
-stages:
-  - check
-  - compile
-  - test
-  - deploy
+node_js:
+  - 10
+  - 8
 
 before_script:
   - echo "Start CI"
@@ -12,50 +10,23 @@ before_script:
 install:
   - npm ci
 
-jobs:
-  include:
-    - stage: check
-      name: check
-      node_js:
-        - 8
-        - 10
-      script:
-        - npm run format
-        - npm run lint
+script:
+  - npm run format
+  - npm run lint
+  - npm run build:library
+  - npm run build:style
+  - npm run test:coverage:report -- --username $CODACY_USERNAME --projectName $CODACY_PROJECT_NAME
+  - npm run test:visual:tdd
 
-    - stage: compile
-      name: build
-      node_js:
-        - 8
-        - 10
-      script:
-        - npm run build:library
-        - npm run build:style
+before_deploy:
+  - if [ ! -d dist ]; then npm run build:library ; fi
+  - if [ ! -d dist ]; then npm run build:style ; fi
 
-    - stage: test
-      name: testCoverage
-      node_js:
-        - 8
-        - 10
-      script:
-        - npm run test:coverage:report -- --username $CODACY_USERNAME --projectName $CODACY_PROJECT_NAME
-
-    - stage: test
-      name: testVisualTdd
-      node_js:
-        - 10
-      script:
-        - npm run test:visual:tdd
-
-    - stage: deploy
-      name: deployPackage
-        before_deploy:
-          - if [ ! -d dist ]; then npm run build:library ; fi
-          - if [ ! -d dist ]; then npm run build:style ; fi
-        provider: npm
-        email: $NPM_AUTHOR_EMAIL
-        api_key: $NPM_TOKEN
-        skip_cleanup: true
-        on:
-          tags: true
-          node: 10
+deploy:
+  provider: npm
+  email: $NPM_AUTHOR_EMAIL
+  api_key: $NPM_TOKEN
+  skip_cleanup: true
+  on:
+    tags: true
+    node: 10
