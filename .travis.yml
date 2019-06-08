@@ -24,38 +24,38 @@ jobs:
         - npm run lint
 
     - stage: compile
-    name: build
-    node_js:
-      - 8
-      - 10
-    script:
-      - npm run build:library
-      - npm run build:style
+      name: build
+      node_js:
+        - 8
+        - 10
+      script:
+        - npm run build:library
+        - npm run build:style
 
     - stage: test
-    name: testCoverage
-    node_js:
-      - 8
-      - 10
-    script:
-      - npm run test:coverage:report -- --username $CODACY_USERNAME --projectName $CODACY_PROJECT_NAME
+      name: testCoverage
+      node_js:
+        - 8
+        - 10
+      script:
+        - npm run test:coverage:report -- --username $CODACY_USERNAME --projectName $CODACY_PROJECT_NAME
 
     - stage: test
-    name: testVisualTdd
-    node_js:
-      - 10
-    script:
-      - npm run test:visual:tdd
+      name: testVisualTdd
+      node_js:
+        - 10
+      script:
+        - npm run test:visual:tdd
 
     - stage: deploy
-    name: deployPackage
-      before_deploy:
-        - if [ ! -d dist ]; then npm run build:library ; fi
-        - if [ ! -d dist ]; then npm run build:style ; fi
-      provider: npm
-      email: $NPM_AUTHOR_EMAIL
-      api_key: $NPM_TOKEN
-      skip_cleanup: true
-      on:
-        tags: true
-        node: 10
+      name: deployPackage
+        before_deploy:
+          - if [ ! -d dist ]; then npm run build:library ; fi
+          - if [ ! -d dist ]; then npm run build:style ; fi
+        provider: npm
+        email: $NPM_AUTHOR_EMAIL
+        api_key: $NPM_TOKEN
+        skip_cleanup: true
+        on:
+          tags: true
+          node: 10
