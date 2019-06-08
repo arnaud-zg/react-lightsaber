@@ -3,13 +3,11 @@ language: node_js
 before_script:
   - echo "Start CI"
 
+install:
+  - npm ci
+
 jobs:
   include:
-    - stage: install dependency
-      node_js:
-        - 10
-        - 8
-      script: npm ci
     - stage: check
       node_js:
         - 10
