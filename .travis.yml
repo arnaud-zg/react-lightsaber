@@ -1,8 +1,10 @@
 language: node_js
 
-node_js:
-  - 10
-  - 8
+stages:
+  - check
+  - compile
+  - test
+  - deploy
 
 before_script:
   - echo "Start CI"
@@ -10,29 +12,50 @@ before_script:
 install:
   - npm ci
 
-script:
-  - npm run format
-  - npm run lint
-  - npm run build:library
-  - npm run build:style
-  - npm run test:coverage:report -- --username $CODACY_USERNAME --projectName $CODACY_PROJECT_NAME
-
 jobs:
-  include:
-    - stage: visualTdd
-      node: 10
-      script:
-        - if [[ $(node --version | cut -d "v" -f 2) > 10.0.0 ]]; then npm run test:visual:tdd ; fi
+  include.
+    - stage: check
+    name: check
+    node_js:
+      - 8
+      - 10
+    script:
+      - npm run format
+      - npm run lint
 
-before_deploy:
-  - if [ ! -d dist ]; then npm run build:library ; fi
-  - if [ ! -d dist ]; then npm run build:style ; fi
+    - stage: compile
+    name: build
+    node_js:
+      - 8
+      - 10
+    script:
+      - npm run build:library
+      - npm run build:style
 
-deploy:
-  provider: npm
-  email: $NPM_AUTHOR_EMAIL
-  api_key: $NPM_TOKEN
-  skip_cleanup: true
-  on:
-    tags: true
-    node: 10
+    - stage: test
+    name: testCoverage
+    node_js:
+      - 8
+      - 10
+    script:
+      - npm run test:coverage:report -- --username $CODACY_USERNAME --projectName $CODACY_PROJECT_NAME
+
+    - stage: test
+    name: testVisualTdd
+    node_js:
+      - 10
+    script:
+      - if [[ $(node --version | cut -d "v" -f 2) > 10.0.0 ]]; then npm run test:visual:tdd ; fi
+
+    - stage: deploy
+    name: deployPackage
+      before_deploy:
+        - if [ ! -d dist ]; then npm run build:library ; fi
+        - if [ ! -d dist ]; then npm run build:style ; fi
+      provider: npm
+      email: $NPM_AUTHOR_EMAIL
+      api_key: $NPM_TOKEN
+      skip_cleanup: true
+      on:
+        tags: true
+        node: 10
