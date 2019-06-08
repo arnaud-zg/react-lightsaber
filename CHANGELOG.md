@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.0...v0.1.1) (2019-06-08)
+
+
+### Bug Fixes
+
+* **task:** remove prepush hooks ([#166](https://github.com/arnaud-zg/react-lightsaber/issues/166)) ([4a5865a](https://github.com/arnaud-zg/react-lightsaber/commit/4a5865a))
+* **test:** run visual tdd only on node 10 ([#164](https://github.com/arnaud-zg/react-lightsaber/issues/164)) ([2f7e629](https://github.com/arnaud-zg/react-lightsaber/commit/2f7e629))
+
+
+
 ## [0.1.0](https://github.com/arnaud-zg/react-lightsaber/compare/v0.0.13...v0.1.0) (2019-06-08)
 
 
