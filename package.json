@@ -22,7 +22,6 @@
     "lint": "tslint  --project tsconfig.json -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
     "prebuild": "rimraf dist",
     "precommit": "lint-staged",
-    "prepush": "npm run test && npm run build:library",
     "release": "standard-version",
     "test:chromatic": "chromatic test  --script-name watch:storybook",
     "test:coverage:report": "npm run test:coverage && cat ./coverage/lcov.info | codacy-coverage",
