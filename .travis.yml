@@ -45,7 +45,7 @@ jobs:
     node_js:
       - 10
     script:
-      - if [[ $(node --version | cut -d "v" -f 2) > 10.0.0 ]]; then npm run test:visual:tdd ; fi
+      - npm run test:visual:tdd
 
     - stage: deploy
     name: deployPackage
