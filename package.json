@@ -67,7 +67,7 @@
     "gulp-sass": "4.0.2",
     "gulp-size": "3.0.0",
     "gulp-sizereport": "1.2.1",
-    "husky": "2.5.0",
+    "husky": "2.7.0",
     "jest": "24.8.0",
     "jsdom": "15.1.1",
     "lint-staged": "8.2.1",
