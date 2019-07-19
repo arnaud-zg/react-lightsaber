@@ -1,5 +1,4 @@
 import { configure } from '@storybook/react'
-import 'storybook-chromatic'
 
 // automatically import all files ending in *.stories.tsx
 const req = require.context('../stories', true, /.stories.tsx$/)
