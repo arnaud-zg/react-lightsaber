@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.5...v0.1.6) (2019-08-08)
+
+
+### Bug Fixes
+
+* **font-family:** use Arial instead of Courier ([#153](https://github.com/arnaud-zg/react-lightsaber/issues/153)) ([#231](https://github.com/arnaud-zg/react-lightsaber/issues/231)) ([3bdab26](https://github.com/arnaud-zg/react-lightsaber/commit/3bdab26))
+
 ### [0.1.5](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.4...v0.1.5) (2019-07-25)
 
 
