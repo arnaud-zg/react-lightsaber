@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.10](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.9...v0.1.10) (2019-09-10)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency rollup-plugin-typescript2 to v0.24.1 ([#275](https://github.com/arnaud-zg/react-lightsaber/issues/275)) ([a93ebfe](https://github.com/arnaud-zg/react-lightsaber/commit/a93ebfe))
+* **deps:** update dependency tslint to v5.20.0 ([#276](https://github.com/arnaud-zg/react-lightsaber/issues/276)) ([56a9498](https://github.com/arnaud-zg/react-lightsaber/commit/56a9498))
+* **package:** add pre release command ([#277](https://github.com/arnaud-zg/react-lightsaber/issues/277)) ([a7f0e06](https://github.com/arnaud-zg/react-lightsaber/commit/a7f0e06))
+
 ### [0.1.9](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.8...v0.1.9) (2019-09-10)
 
 
