@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.9](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.8...v0.1.9) (2019-09-10)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency rollup to v1.21.2 ([#274](https://github.com/arnaud-zg/react-lightsaber/issues/274)) ([22c34e8](https://github.com/arnaud-zg/react-lightsaber/commit/22c34e8))
+
 ### [0.1.8](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.6...v0.1.8) (2019-09-08)
 
 
