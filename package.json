@@ -22,7 +22,7 @@
     "lint": "tslint  --project tsconfig.json -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
     "prebuild": "rimraf dist",
     "precommit": "lint-staged",
-    "prerelease": "yarn run build:storybook && git add docs/",
+    "prerelease": "npm run build:storybook && git add docs/",
     "release": "standard-version -a",
     "test:coverage:report": "npm run test:coverage && cat ./coverage/lcov.info | codacy-coverage",
     "test:coverage": "npm run test -- --coverage",
