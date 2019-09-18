@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.12](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.11...v0.1.12) (2019-09-18)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @storybook/react to v5.2.1 ([#287](https://github.com/arnaud-zg/react-lightsaber/issues/287)) ([824a18b](https://github.com/arnaud-zg/react-lightsaber/commit/824a18b))
+* **deps:** update dependency cross-env to v6 ([#288](https://github.com/arnaud-zg/react-lightsaber/issues/288)) ([9f323fb](https://github.com/arnaud-zg/react-lightsaber/commit/9f323fb))
+* **deps:** update dependency rollup to v1.21.3 ([#284](https://github.com/arnaud-zg/react-lightsaber/issues/284)) ([c3a101b](https://github.com/arnaud-zg/react-lightsaber/commit/c3a101b))
+* **deps:** update dependency rollup to v1.21.4 ([#286](https://github.com/arnaud-zg/react-lightsaber/issues/286)) ([53b398c](https://github.com/arnaud-zg/react-lightsaber/commit/53b398c))
+* **deps:** update dependency ts-node to v8.4.1 ([#285](https://github.com/arnaud-zg/react-lightsaber/issues/285)) ([efad5be](https://github.com/arnaud-zg/react-lightsaber/commit/efad5be))
+* **deps:** update dependency tslint-react to v4.1.0 ([#289](https://github.com/arnaud-zg/react-lightsaber/issues/289)) ([27a8208](https://github.com/arnaud-zg/react-lightsaber/commit/27a8208))
+
 ### [0.1.11](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.10...v0.1.11) (2019-09-14)
 
 
