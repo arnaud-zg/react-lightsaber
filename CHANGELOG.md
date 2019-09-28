@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.13](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.12...v0.1.13) (2019-09-28)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update react monorepo to v16.10.0 ([#296](https://github.com/arnaud-zg/react-lightsaber/issues/296)) ([097d22c](https://github.com/arnaud-zg/react-lightsaber/commit/097d22c))
+* **deps:** update react monorepo to v16.10.1 ([#298](https://github.com/arnaud-zg/react-lightsaber/issues/298)) ([cf6c919](https://github.com/arnaud-zg/react-lightsaber/commit/cf6c919))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/node to v10.14.19 ([#292](https://github.com/arnaud-zg/react-lightsaber/issues/292)) ([9035727](https://github.com/arnaud-zg/react-lightsaber/commit/9035727))
+* **deps:** update dependency @types/react to v16.9.3 ([#293](https://github.com/arnaud-zg/react-lightsaber/issues/293)) ([dbe785f](https://github.com/arnaud-zg/react-lightsaber/commit/dbe785f))
+* **deps:** update dependency colors to v1.4.0 ([#291](https://github.com/arnaud-zg/react-lightsaber/issues/291)) ([a6bea74](https://github.com/arnaud-zg/react-lightsaber/commit/a6bea74))
+* **deps:** update dependency husky to v3.0.7 ([#297](https://github.com/arnaud-zg/react-lightsaber/issues/297)) ([7e5a220](https://github.com/arnaud-zg/react-lightsaber/commit/7e5a220))
+* **deps:** update dependency lint-staged to v9.3.0 ([#290](https://github.com/arnaud-zg/react-lightsaber/issues/290)) ([65119fd](https://github.com/arnaud-zg/react-lightsaber/commit/65119fd))
+* **deps:** update dependency lint-staged to v9.4.0 ([#294](https://github.com/arnaud-zg/react-lightsaber/issues/294)) ([9bd617d](https://github.com/arnaud-zg/react-lightsaber/commit/9bd617d))
+* **deps:** update dependency rollup-plugin-typescript2 to v0.24.3 ([#295](https://github.com/arnaud-zg/react-lightsaber/issues/295)) ([c3e0da6](https://github.com/arnaud-zg/react-lightsaber/commit/c3e0da6))
+
 ### [0.1.12](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.11...v0.1.12) (2019-09-18)
 
 
