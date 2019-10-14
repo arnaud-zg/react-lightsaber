@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.17](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.16...v0.1.17) (2019-10-14)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency enzyme-adapter-react-16 to v1.15.0 ([#314](https://github.com/arnaud-zg/react-lightsaber/issues/314)) ([258dfc2](https://github.com/arnaud-zg/react-lightsaber/commit/258dfc2))
+* **deps:** update dependency enzyme-adapter-react-16 to v1.15.1 ([#317](https://github.com/arnaud-zg/react-lightsaber/issues/317)) ([48a3aba](https://github.com/arnaud-zg/react-lightsaber/commit/48a3aba))
+* **deps:** update dependency husky to v3.0.9 ([#318](https://github.com/arnaud-zg/react-lightsaber/issues/318)) ([41a3dbe](https://github.com/arnaud-zg/react-lightsaber/commit/41a3dbe))
+* **deps:** update dependency typescript to v3.6.4 ([#315](https://github.com/arnaud-zg/react-lightsaber/issues/315)) ([5f2d2ff](https://github.com/arnaud-zg/react-lightsaber/commit/5f2d2ff))
+* **deps:** update node.js to v8.16.2 ([#316](https://github.com/arnaud-zg/react-lightsaber/issues/316)) ([e5d589c](https://github.com/arnaud-zg/react-lightsaber/commit/e5d589c))
+
 ### [0.1.16](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.15...v0.1.16) (2019-10-08)
 
 
