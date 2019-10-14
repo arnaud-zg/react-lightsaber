@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.18](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.17...v0.1.18) (2019-10-14)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @storybook/react to v5.2.4 ([#319](https://github.com/arnaud-zg/react-lightsaber/issues/319)) ([4d0f618](https://github.com/arnaud-zg/react-lightsaber/commit/4d0f618))
+* **deps:** update dependency @types/jest to v24.0.19 ([#321](https://github.com/arnaud-zg/react-lightsaber/issues/321)) ([482dcdb](https://github.com/arnaud-zg/react-lightsaber/commit/482dcdb))
+* **deps:** update dependency @types/react to v16.9.6 ([#323](https://github.com/arnaud-zg/react-lightsaber/issues/323)) ([5bc9755](https://github.com/arnaud-zg/react-lightsaber/commit/5bc9755))
+* **deps:** update dependency @types/react-test-renderer to v16.9.1 ([#322](https://github.com/arnaud-zg/react-lightsaber/issues/322)) ([f889aad](https://github.com/arnaud-zg/react-lightsaber/commit/f889aad))
+* **deps:** update dependency jsdom to v15.2.0 ([#320](https://github.com/arnaud-zg/react-lightsaber/issues/320)) ([3feaa0e](https://github.com/arnaud-zg/react-lightsaber/commit/3feaa0e))
+
 ### [0.1.17](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.16...v0.1.17) (2019-10-14)
 
 
