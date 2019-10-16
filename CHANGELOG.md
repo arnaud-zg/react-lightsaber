@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.19](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.18...v0.1.19) (2019-10-16)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/node to v10.14.22 ([#327](https://github.com/arnaud-zg/react-lightsaber/issues/327)) ([1112e67](https://github.com/arnaud-zg/react-lightsaber/commit/1112e67))
+* **deps:** update dependency @types/react to v16.9.7 ([#326](https://github.com/arnaud-zg/react-lightsaber/issues/326)) ([d5685d7](https://github.com/arnaud-zg/react-lightsaber/commit/d5685d7))
+* **deps:** update dependency @types/react to v16.9.9 ([#328](https://github.com/arnaud-zg/react-lightsaber/issues/328)) ([c461be2](https://github.com/arnaud-zg/react-lightsaber/commit/c461be2))
+* **deps:** update dependency rollup to v1.24.0 ([#324](https://github.com/arnaud-zg/react-lightsaber/issues/324)) ([97ed914](https://github.com/arnaud-zg/react-lightsaber/commit/97ed914))
+* **deps:** update dependency rollup-plugin-filesize to v6.2.1 ([#325](https://github.com/arnaud-zg/react-lightsaber/issues/325)) ([67098c3](https://github.com/arnaud-zg/react-lightsaber/commit/67098c3))
+
 ### [0.1.18](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.17...v0.1.18) (2019-10-14)
 
 
