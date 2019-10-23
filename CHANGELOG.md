@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.20](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.19...v0.1.20) (2019-10-23)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update react monorepo to v16.11.0 ([#332](https://github.com/arnaud-zg/react-lightsaber/issues/332)) ([65b1b70](https://github.com/arnaud-zg/react-lightsaber/commit/65b1b70))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @storybook/react to v5.2.5 ([#331](https://github.com/arnaud-zg/react-lightsaber/issues/331)) ([46df85a](https://github.com/arnaud-zg/react-lightsaber/commit/46df85a))
+* **deps:** update dependency rollup to v1.25.0 ([#329](https://github.com/arnaud-zg/react-lightsaber/issues/329)) ([59495ba](https://github.com/arnaud-zg/react-lightsaber/commit/59495ba))
+* **deps:** update dependency rollup to v1.25.1 ([#330](https://github.com/arnaud-zg/react-lightsaber/issues/330)) ([98493aa](https://github.com/arnaud-zg/react-lightsaber/commit/98493aa))
+* **deps:** update dependency rollup to v1.25.2 ([#333](https://github.com/arnaud-zg/react-lightsaber/issues/333)) ([2b7223f](https://github.com/arnaud-zg/react-lightsaber/commit/2b7223f))
+
 ### [0.1.19](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.18...v0.1.19) (2019-10-16)
 
 
