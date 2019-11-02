@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.22](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.21...v0.1.22) (2019-11-02)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/jest to v24.0.21 ([#342](https://github.com/arnaud-zg/react-lightsaber/issues/342)) ([42198e4](https://github.com/arnaud-zg/react-lightsaber/commit/42198e4))
+* **deps:** update dependency @types/node to v10.17.2 ([#343](https://github.com/arnaud-zg/react-lightsaber/issues/343)) ([3939372](https://github.com/arnaud-zg/react-lightsaber/commit/3939372))
+* **deps:** update dependency @types/node to v10.17.3 ([#345](https://github.com/arnaud-zg/react-lightsaber/issues/345)) ([bb42f06](https://github.com/arnaud-zg/react-lightsaber/commit/bb42f06))
+* **deps:** update dependency rollup to v1.26.0 ([#339](https://github.com/arnaud-zg/react-lightsaber/issues/339)) ([4e012ff](https://github.com/arnaud-zg/react-lightsaber/commit/4e012ff))
+* **deps:** update dependency rollup to v1.26.2 ([#344](https://github.com/arnaud-zg/react-lightsaber/issues/344)) ([b26e0fc](https://github.com/arnaud-zg/react-lightsaber/commit/b26e0fc))
+
 ### [0.1.21](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.20...v0.1.21) (2019-10-25)
 
 
