@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.23](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.22...v0.1.23) (2019-11-05)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency jsdom to v15.2.1 ([#347](https://github.com/arnaud-zg/react-lightsaber/issues/347)) ([b719679](https://github.com/arnaud-zg/react-lightsaber/commit/b719679))
+* **deps:** update dependency rollup to v1.26.3 ([#346](https://github.com/arnaud-zg/react-lightsaber/issues/346)) ([f8d9bb2](https://github.com/arnaud-zg/react-lightsaber/commit/f8d9bb2))
+* **deps:** update dependency rollup-plugin-typescript2 to v0.25.2 ([#349](https://github.com/arnaud-zg/react-lightsaber/issues/349)) ([4859438](https://github.com/arnaud-zg/react-lightsaber/commit/4859438))
+* **deps:** update dependency tslint to v5.20.1 ([#350](https://github.com/arnaud-zg/react-lightsaber/issues/350)) ([bf8d74d](https://github.com/arnaud-zg/react-lightsaber/commit/bf8d74d))
+* **deps:** update dependency typescript to v3.7.2 ([#348](https://github.com/arnaud-zg/react-lightsaber/issues/348)) ([eb48de4](https://github.com/arnaud-zg/react-lightsaber/commit/eb48de4))
+
 ### [0.1.22](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.21...v0.1.22) (2019-11-02)
 
 
