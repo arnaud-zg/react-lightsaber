@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.26](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.25...v0.1.26) (2019-11-18)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update react monorepo to v16.12.0 ([#364](https://github.com/arnaud-zg/react-lightsaber/issues/364)) ([a924548](https://github.com/arnaud-zg/react-lightsaber/commit/a924548))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency lint-staged to v9.4.3 ([#363](https://github.com/arnaud-zg/react-lightsaber/issues/363)) ([6b584f3](https://github.com/arnaud-zg/react-lightsaber/commit/6b584f3))
+* **deps:** update dependency rollup to v1.27.0 ([#361](https://github.com/arnaud-zg/react-lightsaber/issues/361)) ([556c3a1](https://github.com/arnaud-zg/react-lightsaber/commit/556c3a1))
+* **deps:** update dependency rollup to v1.27.1 ([#367](https://github.com/arnaud-zg/react-lightsaber/issues/367)) ([0474476](https://github.com/arnaud-zg/react-lightsaber/commit/0474476))
+* **deps:** update dependency ts-node to v8.5.2 ([#365](https://github.com/arnaud-zg/react-lightsaber/issues/365)) ([041c73a](https://github.com/arnaud-zg/react-lightsaber/commit/041c73a))
+
 ### [0.1.25](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.24...v0.1.25) (2019-11-13)
 
 
