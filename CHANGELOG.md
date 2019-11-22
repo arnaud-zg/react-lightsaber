@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.27](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.26...v0.1.27) (2019-11-22)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/react to v16.9.12 ([#374](https://github.com/arnaud-zg/react-lightsaber/issues/374)) ([d2332ef](https://github.com/arnaud-zg/react-lightsaber/commit/d2332ef))
+* **deps:** update dependency husky to v3.1.0 ([#366](https://github.com/arnaud-zg/react-lightsaber/issues/366)) ([1949e67](https://github.com/arnaud-zg/react-lightsaber/commit/1949e67))
+* **deps:** update dependency rollup to v1.27.2 ([#368](https://github.com/arnaud-zg/react-lightsaber/issues/368)) ([c9dcca3](https://github.com/arnaud-zg/react-lightsaber/commit/c9dcca3))
+* **deps:** update dependency rollup to v1.27.3 ([#370](https://github.com/arnaud-zg/react-lightsaber/issues/370)) ([06e0311](https://github.com/arnaud-zg/react-lightsaber/commit/06e0311))
+* **deps:** update dependency rollup to v1.27.4 ([#372](https://github.com/arnaud-zg/react-lightsaber/issues/372)) ([fe77483](https://github.com/arnaud-zg/react-lightsaber/commit/fe77483))
+* **deps:** update dependency standard-version to v7.0.1 ([#369](https://github.com/arnaud-zg/react-lightsaber/issues/369)) ([9bb1c9f](https://github.com/arnaud-zg/react-lightsaber/commit/9bb1c9f))
+* **deps:** update dependency ts-jest to v24.2.0 ([#373](https://github.com/arnaud-zg/react-lightsaber/issues/373)) ([6686a7f](https://github.com/arnaud-zg/react-lightsaber/commit/6686a7f))
+
 ### [0.1.26](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.25...v0.1.26) (2019-11-18)
 
 
