@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.28](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.27...v0.1.28) (2019-11-28)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/node to v10.17.6 ([#377](https://github.com/arnaud-zg/react-lightsaber/issues/377)) ([607a4c3](https://github.com/arnaud-zg/react-lightsaber/commit/607a4c3))
+* **deps:** update dependency @types/react to v16.9.13 ([#375](https://github.com/arnaud-zg/react-lightsaber/issues/375)) ([ce0d196](https://github.com/arnaud-zg/react-lightsaber/commit/ce0d196))
+* **deps:** update dependency lint-staged to v9.5.0 ([#378](https://github.com/arnaud-zg/react-lightsaber/issues/378)) ([e5d9c13](https://github.com/arnaud-zg/react-lightsaber/commit/e5d9c13))
+* **deps:** update dependency rollup to v1.27.5 ([#376](https://github.com/arnaud-zg/react-lightsaber/issues/376)) ([6e01337](https://github.com/arnaud-zg/react-lightsaber/commit/6e01337))
+* **deps:** update dependency style-loader to v1.0.1 ([#380](https://github.com/arnaud-zg/react-lightsaber/issues/380)) ([ec203ec](https://github.com/arnaud-zg/react-lightsaber/commit/ec203ec))
+* **deps:** update dependency ts-node to v8.5.3 ([#379](https://github.com/arnaud-zg/react-lightsaber/issues/379)) ([bbb7e9f](https://github.com/arnaud-zg/react-lightsaber/commit/bbb7e9f))
+* **deps:** update dependency ts-node to v8.5.4 ([#381](https://github.com/arnaud-zg/react-lightsaber/issues/381)) ([11b151a](https://github.com/arnaud-zg/react-lightsaber/commit/11b151a))
+
 ### [0.1.27](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.26...v0.1.27) (2019-11-22)
 
 
