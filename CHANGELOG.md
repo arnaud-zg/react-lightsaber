@@ -2,6 +2,39 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.29](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.28...v0.1.29) (2019-12-18)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @storybook/react to v5.2.7 ([#382](https://github.com/arnaud-zg/react-lightsaber/issues/382)) ([ca16898](https://github.com/arnaud-zg/react-lightsaber/commit/ca16898))
+* **deps:** update dependency @storybook/react to v5.2.8 ([#385](https://github.com/arnaud-zg/react-lightsaber/issues/385)) ([26fbeef](https://github.com/arnaud-zg/react-lightsaber/commit/26fbeef))
+* **deps:** update dependency @types/enzyme to v3.10.4 ([#391](https://github.com/arnaud-zg/react-lightsaber/issues/391)) ([e94624c](https://github.com/arnaud-zg/react-lightsaber/commit/e94624c))
+* **deps:** update dependency @types/node to v10.17.10 ([#405](https://github.com/arnaud-zg/react-lightsaber/issues/405)) ([e543293](https://github.com/arnaud-zg/react-lightsaber/commit/e543293))
+* **deps:** update dependency @types/node to v10.17.11 ([#407](https://github.com/arnaud-zg/react-lightsaber/issues/407)) ([9b87b18](https://github.com/arnaud-zg/react-lightsaber/commit/9b87b18))
+* **deps:** update dependency @types/node to v10.17.7 ([#393](https://github.com/arnaud-zg/react-lightsaber/issues/393)) ([0f882bf](https://github.com/arnaud-zg/react-lightsaber/commit/0f882bf))
+* **deps:** update dependency @types/node to v10.17.8 ([#396](https://github.com/arnaud-zg/react-lightsaber/issues/396)) ([ad69615](https://github.com/arnaud-zg/react-lightsaber/commit/ad69615))
+* **deps:** update dependency @types/node to v10.17.9 ([#397](https://github.com/arnaud-zg/react-lightsaber/issues/397)) ([081cf83](https://github.com/arnaud-zg/react-lightsaber/commit/081cf83))
+* **deps:** update dependency @types/react to v16.9.14 ([#387](https://github.com/arnaud-zg/react-lightsaber/issues/387)) ([cfd9432](https://github.com/arnaud-zg/react-lightsaber/commit/cfd9432))
+* **deps:** update dependency @types/react to v16.9.15 ([#390](https://github.com/arnaud-zg/react-lightsaber/issues/390)) ([8df06ec](https://github.com/arnaud-zg/react-lightsaber/commit/8df06ec))
+* **deps:** update dependency @types/react to v16.9.16 ([#394](https://github.com/arnaud-zg/react-lightsaber/issues/394)) ([c577a15](https://github.com/arnaud-zg/react-lightsaber/commit/c577a15))
+* **deps:** update dependency css-loader to v3.2.1 ([#386](https://github.com/arnaud-zg/react-lightsaber/issues/386)) ([85c4ca7](https://github.com/arnaud-zg/react-lightsaber/commit/85c4ca7))
+* **deps:** update dependency css-loader to v3.3.0 ([#395](https://github.com/arnaud-zg/react-lightsaber/issues/395)) ([a4817c1](https://github.com/arnaud-zg/react-lightsaber/commit/a4817c1))
+* **deps:** update dependency css-loader to v3.3.2 ([#401](https://github.com/arnaud-zg/react-lightsaber/issues/401)) ([180d71d](https://github.com/arnaud-zg/react-lightsaber/commit/180d71d))
+* **deps:** update dependency css-loader to v3.4.0 ([#406](https://github.com/arnaud-zg/react-lightsaber/issues/406)) ([b0708c9](https://github.com/arnaud-zg/react-lightsaber/commit/b0708c9))
+* **deps:** update dependency rollup to v1.27.10 ([#398](https://github.com/arnaud-zg/react-lightsaber/issues/398)) ([7e94fad](https://github.com/arnaud-zg/react-lightsaber/commit/7e94fad))
+* **deps:** update dependency rollup to v1.27.11 ([#400](https://github.com/arnaud-zg/react-lightsaber/issues/400)) ([1a6c3f5](https://github.com/arnaud-zg/react-lightsaber/commit/1a6c3f5))
+* **deps:** update dependency rollup to v1.27.12 ([#402](https://github.com/arnaud-zg/react-lightsaber/issues/402)) ([0f7ba77](https://github.com/arnaud-zg/react-lightsaber/commit/0f7ba77))
+* **deps:** update dependency rollup to v1.27.13 ([#403](https://github.com/arnaud-zg/react-lightsaber/issues/403)) ([356e4d3](https://github.com/arnaud-zg/react-lightsaber/commit/356e4d3))
+* **deps:** update dependency rollup to v1.27.6 ([#383](https://github.com/arnaud-zg/react-lightsaber/issues/383)) ([32d0a2e](https://github.com/arnaud-zg/react-lightsaber/commit/32d0a2e))
+* **deps:** update dependency rollup to v1.27.8 ([#384](https://github.com/arnaud-zg/react-lightsaber/issues/384)) ([a045fdd](https://github.com/arnaud-zg/react-lightsaber/commit/a045fdd))
+* **deps:** update dependency rollup to v1.27.9 ([#392](https://github.com/arnaud-zg/react-lightsaber/issues/392)) ([9912d5f](https://github.com/arnaud-zg/react-lightsaber/commit/9912d5f))
+* **deps:** update dependency rollup-plugin-typescript2 to v0.25.3 ([#388](https://github.com/arnaud-zg/react-lightsaber/issues/388)) ([50adf5c](https://github.com/arnaud-zg/react-lightsaber/commit/50adf5c))
+* **deps:** update dependency rollup-plugin-uglify to v6.0.4 ([#399](https://github.com/arnaud-zg/react-lightsaber/issues/399)) ([1c6dde0](https://github.com/arnaud-zg/react-lightsaber/commit/1c6dde0))
+* **deps:** update dependency style-loader to v1.0.2 ([#404](https://github.com/arnaud-zg/react-lightsaber/issues/404)) ([7a8d851](https://github.com/arnaud-zg/react-lightsaber/commit/7a8d851))
+* **deps:** update dependency typescript to v3.7.3 ([#389](https://github.com/arnaud-zg/react-lightsaber/issues/389)) ([74d8ffe](https://github.com/arnaud-zg/react-lightsaber/commit/74d8ffe))
+* **deps:** update node.js to v8.17.0 ([#408](https://github.com/arnaud-zg/react-lightsaber/issues/408)) ([844b2cc](https://github.com/arnaud-zg/react-lightsaber/commit/844b2cc))
+
 ### [0.1.28](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.27...v0.1.28) (2019-11-28)
 
 
