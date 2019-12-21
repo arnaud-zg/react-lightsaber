@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.30](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.29...v0.1.30) (2019-12-21)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/jest to v24.0.24 ([#409](https://github.com/arnaud-zg/react-lightsaber/issues/409)) ([4688430](https://github.com/arnaud-zg/react-lightsaber/commit/4688430))
+* **deps:** update dependency @types/react to v16.9.17 ([#412](https://github.com/arnaud-zg/react-lightsaber/issues/412)) ([894d368](https://github.com/arnaud-zg/react-lightsaber/commit/894d368))
+* **deps:** update dependency enzyme to v3.11.0 ([#411](https://github.com/arnaud-zg/react-lightsaber/issues/411)) ([100a455](https://github.com/arnaud-zg/react-lightsaber/commit/100a455))
+* **deps:** update dependency enzyme-adapter-react-16 to v1.15.2 ([#410](https://github.com/arnaud-zg/react-lightsaber/issues/410)) ([71703d5](https://github.com/arnaud-zg/react-lightsaber/commit/71703d5))
+* **deps:** update dependency style-loader to v1.1.0 ([#413](https://github.com/arnaud-zg/react-lightsaber/issues/413)) ([f47ec43](https://github.com/arnaud-zg/react-lightsaber/commit/f47ec43))
+* **deps:** update dependency style-loader to v1.1.1 ([#414](https://github.com/arnaud-zg/react-lightsaber/issues/414)) ([7e4b41f](https://github.com/arnaud-zg/react-lightsaber/commit/7e4b41f))
+* **deps:** update dependency typescript to v3.7.4 ([#415](https://github.com/arnaud-zg/react-lightsaber/issues/415)) ([05ff525](https://github.com/arnaud-zg/react-lightsaber/commit/05ff525))
+
 ### [0.1.29](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.28...v0.1.29) (2019-12-18)
 
 
