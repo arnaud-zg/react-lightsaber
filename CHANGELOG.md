@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.31](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.30...v0.1.31) (2019-12-26)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/jest to v24.0.25 ([#419](https://github.com/arnaud-zg/react-lightsaber/issues/419)) ([cb25871](https://github.com/arnaud-zg/react-lightsaber/commit/cb258718f12f2f91d9b4538e2334659c88deb00c))
+* **deps:** update dependency @types/node to v10.17.12 ([#417](https://github.com/arnaud-zg/react-lightsaber/issues/417)) ([866ba0d](https://github.com/arnaud-zg/react-lightsaber/commit/866ba0dc47fa3e2d8b93efebffd4c2170052b954))
+* **deps:** update dependency @types/node to v10.17.13 ([#420](https://github.com/arnaud-zg/react-lightsaber/issues/420)) ([c5efdb0](https://github.com/arnaud-zg/react-lightsaber/commit/c5efdb07c81f4062b109563b1c8fb7b58b261c10))
+* **deps:** update dependency rollup to v1.27.14 ([#416](https://github.com/arnaud-zg/react-lightsaber/issues/416)) ([9666360](https://github.com/arnaud-zg/react-lightsaber/commit/9666360cd5d3862720bb4e9dbc87a19c8061f1db))
+* **deps:** update dependency style-loader to v1.1.2 ([#418](https://github.com/arnaud-zg/react-lightsaber/issues/418)) ([2f8a6aa](https://github.com/arnaud-zg/react-lightsaber/commit/2f8a6aa617ddb922960ef222a89fc3a70830630a))
+
+
+### 📦 Build System
+
+* **husky:** move husky hooks into a config file ([#424](https://github.com/arnaud-zg/react-lightsaber/issues/424)) ([899b10d](https://github.com/arnaud-zg/react-lightsaber/commit/899b10de9b62c2c4b3caf5a65df04f17bfd5d319))
+* **package:** use yarn instead of npm ([#421](https://github.com/arnaud-zg/react-lightsaber/issues/421)) ([03ca611](https://github.com/arnaud-zg/react-lightsaber/commit/03ca6117be9c79873f8866f988e33ff67c6a8524))
+
 ### [0.1.30](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.29...v0.1.30) (2019-12-21)
 
 
