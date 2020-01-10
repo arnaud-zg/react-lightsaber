@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.32](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.30...v0.1.32) (2020-01-10)
+
+
+### 📦 Build System
+
+* **husky:** move husky hooks into a config file ([#424](https://github.com/arnaud-zg/react-lightsaber/issues/424)) ([899b10d](https://github.com/arnaud-zg/react-lightsaber/commit/899b10d))
+* **package:** use yarn instead of npm ([#421](https://github.com/arnaud-zg/react-lightsaber/issues/421)) ([03ca611](https://github.com/arnaud-zg/react-lightsaber/commit/03ca611))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/jest to v24.0.25 ([#419](https://github.com/arnaud-zg/react-lightsaber/issues/419)) ([cb25871](https://github.com/arnaud-zg/react-lightsaber/commit/cb25871))
+* **deps:** update dependency @types/node to v10.17.12 ([#417](https://github.com/arnaud-zg/react-lightsaber/issues/417)) ([866ba0d](https://github.com/arnaud-zg/react-lightsaber/commit/866ba0d))
+* **deps:** update dependency @types/node to v10.17.13 ([#420](https://github.com/arnaud-zg/react-lightsaber/issues/420)) ([c5efdb0](https://github.com/arnaud-zg/react-lightsaber/commit/c5efdb0))
+* **deps:** update dependency css-loader to v3.4.1 ([#425](https://github.com/arnaud-zg/react-lightsaber/issues/425)) ([8f816dc](https://github.com/arnaud-zg/react-lightsaber/commit/8f816dc))
+* **deps:** update dependency css-loader to v3.4.2 ([#437](https://github.com/arnaud-zg/react-lightsaber/issues/437)) ([95ea5c0](https://github.com/arnaud-zg/react-lightsaber/commit/95ea5c0))
+* **deps:** update dependency husky to v4 ([#428](https://github.com/arnaud-zg/react-lightsaber/issues/428)) ([b5e2673](https://github.com/arnaud-zg/react-lightsaber/commit/b5e2673))
+* **deps:** update dependency husky to v4.0.1 ([#430](https://github.com/arnaud-zg/react-lightsaber/issues/430)) ([fe5131b](https://github.com/arnaud-zg/react-lightsaber/commit/fe5131b))
+* **deps:** update dependency husky to v4.0.3 ([#432](https://github.com/arnaud-zg/react-lightsaber/issues/432)) ([2322f80](https://github.com/arnaud-zg/react-lightsaber/commit/2322f80))
+* **deps:** update dependency husky to v4.0.4 ([#433](https://github.com/arnaud-zg/react-lightsaber/issues/433)) ([f6d1ede](https://github.com/arnaud-zg/react-lightsaber/commit/f6d1ede))
+* **deps:** update dependency husky to v4.0.6 ([#435](https://github.com/arnaud-zg/react-lightsaber/issues/435)) ([67011db](https://github.com/arnaud-zg/react-lightsaber/commit/67011db))
+* **deps:** update dependency rollup to v1.27.14 ([#416](https://github.com/arnaud-zg/react-lightsaber/issues/416)) ([9666360](https://github.com/arnaud-zg/react-lightsaber/commit/9666360))
+* **deps:** update dependency rollup to v1.28.0 ([#427](https://github.com/arnaud-zg/react-lightsaber/issues/427)) ([c44f492](https://github.com/arnaud-zg/react-lightsaber/commit/c44f492))
+* **deps:** update dependency rollup to v1.29.0 ([#431](https://github.com/arnaud-zg/react-lightsaber/issues/431)) ([a876efb](https://github.com/arnaud-zg/react-lightsaber/commit/a876efb))
+* **deps:** update dependency sass-loader to v8.0.1 ([#436](https://github.com/arnaud-zg/react-lightsaber/issues/436)) ([0d59a4b](https://github.com/arnaud-zg/react-lightsaber/commit/0d59a4b))
+* **deps:** update dependency style-loader to v1.1.2 ([#418](https://github.com/arnaud-zg/react-lightsaber/issues/418)) ([2f8a6aa](https://github.com/arnaud-zg/react-lightsaber/commit/2f8a6aa))
+* **deps:** update dependency ts-jest to v24.3.0 ([#429](https://github.com/arnaud-zg/react-lightsaber/issues/429)) ([c6f802f](https://github.com/arnaud-zg/react-lightsaber/commit/c6f802f))
+* **deps:** update dependency ts-node to v8.6.0 ([#434](https://github.com/arnaud-zg/react-lightsaber/issues/434)) ([2a74a15](https://github.com/arnaud-zg/react-lightsaber/commit/2a74a15))
+* **release:** 0.1.31 ([af12ea0](https://github.com/arnaud-zg/react-lightsaber/commit/af12ea0))
+
 ### [0.1.31](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.30...v0.1.31) (2019-12-26)
 
 
