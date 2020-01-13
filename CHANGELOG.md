@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.33](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.32...v0.1.33) (2020-01-13)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @storybook/react to v5.3.0 ([#439](https://github.com/arnaud-zg/react-lightsaber/issues/439)) ([6dca9d6](https://github.com/arnaud-zg/react-lightsaber/commit/6dca9d6))
+* **deps:** update dependency @storybook/react to v5.3.1 ([#441](https://github.com/arnaud-zg/react-lightsaber/issues/441)) ([4505efa](https://github.com/arnaud-zg/react-lightsaber/commit/4505efa))
+* **deps:** update dependency @storybook/react to v5.3.2 ([#443](https://github.com/arnaud-zg/react-lightsaber/issues/443)) ([8c2fcf0](https://github.com/arnaud-zg/react-lightsaber/commit/8c2fcf0))
+* **deps:** update dependency husky to v4.0.7 ([#440](https://github.com/arnaud-zg/react-lightsaber/issues/440)) ([e5c8660](https://github.com/arnaud-zg/react-lightsaber/commit/e5c8660))
+* **deps:** update dependency jsdom to v16 ([#444](https://github.com/arnaud-zg/react-lightsaber/issues/444)) ([45ba465](https://github.com/arnaud-zg/react-lightsaber/commit/45ba465))
+* **deps:** update dependency sass-loader to v8.0.2 ([#442](https://github.com/arnaud-zg/react-lightsaber/issues/442)) ([91a2bc6](https://github.com/arnaud-zg/react-lightsaber/commit/91a2bc6))
+* **deps:** update dependency ts-node to v8.6.1 ([#438](https://github.com/arnaud-zg/react-lightsaber/issues/438)) ([cc381d1](https://github.com/arnaud-zg/react-lightsaber/commit/cc381d1))
+* **deps:** update dependency ts-node to v8.6.2 ([#445](https://github.com/arnaud-zg/react-lightsaber/issues/445)) ([c6adda7](https://github.com/arnaud-zg/react-lightsaber/commit/c6adda7))
+
 ### [0.1.32](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.30...v0.1.32) (2020-01-10)
 
 
