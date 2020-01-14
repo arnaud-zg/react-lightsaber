@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.34](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.33...v0.1.34) (2020-01-14)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @storybook/react to v5.3.3 ([#446](https://github.com/arnaud-zg/react-lightsaber/issues/446)) ([498a8d8](https://github.com/arnaud-zg/react-lightsaber/commit/498a8d8))
+* **deps:** update dependency husky to v4.0.8 ([#447](https://github.com/arnaud-zg/react-lightsaber/issues/447)) ([7bb699b](https://github.com/arnaud-zg/react-lightsaber/commit/7bb699b))
+* **deps:** update dependency husky to v4.0.9 ([#448](https://github.com/arnaud-zg/react-lightsaber/issues/448)) ([934e01d](https://github.com/arnaud-zg/react-lightsaber/commit/934e01d))
+
 ### [0.1.33](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.32...v0.1.33) (2020-01-13)
 
 
