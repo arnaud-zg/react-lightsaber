@@ -2,6 +2,66 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.38](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.37...v0.1.38) (2020-03-16)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update react monorepo to v16.13.0 ([#512](https://github.com/arnaud-zg/react-lightsaber/issues/512)) ([2ddbba4](https://github.com/arnaud-zg/react-lightsaber/commit/2ddbba4))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @storybook/react to v5.3.10 ([#488](https://github.com/arnaud-zg/react-lightsaber/issues/488)) ([0079554](https://github.com/arnaud-zg/react-lightsaber/commit/0079554))
+* **deps:** update dependency @storybook/react to v5.3.11 ([#490](https://github.com/arnaud-zg/react-lightsaber/issues/490)) ([302ef04](https://github.com/arnaud-zg/react-lightsaber/commit/302ef04))
+* **deps:** update dependency @storybook/react to v5.3.12 ([#491](https://github.com/arnaud-zg/react-lightsaber/issues/491)) ([c1a5f09](https://github.com/arnaud-zg/react-lightsaber/commit/c1a5f09))
+* **deps:** update dependency @storybook/react to v5.3.13 ([#499](https://github.com/arnaud-zg/react-lightsaber/issues/499)) ([ff8bbd0](https://github.com/arnaud-zg/react-lightsaber/commit/ff8bbd0))
+* **deps:** update dependency @storybook/react to v5.3.14 ([#510](https://github.com/arnaud-zg/react-lightsaber/issues/510)) ([8ad73d8](https://github.com/arnaud-zg/react-lightsaber/commit/8ad73d8))
+* **deps:** update dependency @storybook/react to v5.3.17 ([#527](https://github.com/arnaud-zg/react-lightsaber/issues/527)) ([f38c407](https://github.com/arnaud-zg/react-lightsaber/commit/f38c407))
+* **deps:** update dependency @types/enzyme to v3.10.5 ([#493](https://github.com/arnaud-zg/react-lightsaber/issues/493)) ([a1e538a](https://github.com/arnaud-zg/react-lightsaber/commit/a1e538a))
+* **deps:** update dependency @types/enzyme-adapter-react-16 to v1.0.6 ([#494](https://github.com/arnaud-zg/react-lightsaber/issues/494)) ([95898a9](https://github.com/arnaud-zg/react-lightsaber/commit/95898a9))
+* **deps:** update dependency @types/jest to v25.1.1 ([#482](https://github.com/arnaud-zg/react-lightsaber/issues/482)) ([3298647](https://github.com/arnaud-zg/react-lightsaber/commit/3298647))
+* **deps:** update dependency @types/jest to v25.1.2 ([#492](https://github.com/arnaud-zg/react-lightsaber/issues/492)) ([8b3debe](https://github.com/arnaud-zg/react-lightsaber/commit/8b3debe))
+* **deps:** update dependency @types/jest to v25.1.3 ([#504](https://github.com/arnaud-zg/react-lightsaber/issues/504)) ([cb0a894](https://github.com/arnaud-zg/react-lightsaber/commit/cb0a894))
+* **deps:** update dependency @types/jest to v25.1.4 ([#520](https://github.com/arnaud-zg/react-lightsaber/issues/520)) ([5d50f27](https://github.com/arnaud-zg/react-lightsaber/commit/5d50f27))
+* **deps:** update dependency @types/node to v10.17.14 ([#480](https://github.com/arnaud-zg/react-lightsaber/issues/480)) ([38eb6dc](https://github.com/arnaud-zg/react-lightsaber/commit/38eb6dc))
+* **deps:** update dependency @types/node to v10.17.15 ([#496](https://github.com/arnaud-zg/react-lightsaber/issues/496)) ([d3c158e](https://github.com/arnaud-zg/react-lightsaber/commit/d3c158e))
+* **deps:** update dependency @types/node to v10.17.16 ([#505](https://github.com/arnaud-zg/react-lightsaber/issues/505)) ([dcda174](https://github.com/arnaud-zg/react-lightsaber/commit/dcda174))
+* **deps:** update dependency @types/node to v10.17.17 ([#514](https://github.com/arnaud-zg/react-lightsaber/issues/514)) ([1ab509d](https://github.com/arnaud-zg/react-lightsaber/commit/1ab509d))
+* **deps:** update dependency @types/react to v16.9.20 ([#502](https://github.com/arnaud-zg/react-lightsaber/issues/502)) ([a17a485](https://github.com/arnaud-zg/react-lightsaber/commit/a17a485))
+* **deps:** update dependency @types/react to v16.9.21 ([#506](https://github.com/arnaud-zg/react-lightsaber/issues/506)) ([08dfb84](https://github.com/arnaud-zg/react-lightsaber/commit/08dfb84))
+* **deps:** update dependency @types/react to v16.9.22 ([#508](https://github.com/arnaud-zg/react-lightsaber/issues/508)) ([d3133fc](https://github.com/arnaud-zg/react-lightsaber/commit/d3133fc))
+* **deps:** update dependency @types/react to v16.9.23 ([#511](https://github.com/arnaud-zg/react-lightsaber/issues/511)) ([86af138](https://github.com/arnaud-zg/react-lightsaber/commit/86af138))
+* **deps:** update dependency cross-env to v7.0.1 ([#516](https://github.com/arnaud-zg/react-lightsaber/issues/516)) ([7fb9ceb](https://github.com/arnaud-zg/react-lightsaber/commit/7fb9ceb))
+* **deps:** update dependency cross-env to v7.0.2 ([#517](https://github.com/arnaud-zg/react-lightsaber/issues/517)) ([db230cf](https://github.com/arnaud-zg/react-lightsaber/commit/db230cf))
+* **deps:** update dependency gulp-clean-css to v4.3.0 ([#528](https://github.com/arnaud-zg/react-lightsaber/issues/528)) ([d2821ce](https://github.com/arnaud-zg/react-lightsaber/commit/d2821ce))
+* **deps:** update dependency husky to v4.2.3 ([#498](https://github.com/arnaud-zg/react-lightsaber/issues/498)) ([593b205](https://github.com/arnaud-zg/react-lightsaber/commit/593b205))
+* **deps:** update dependency jsdom to v16.1.0 ([#487](https://github.com/arnaud-zg/react-lightsaber/issues/487)) ([64bfd91](https://github.com/arnaud-zg/react-lightsaber/commit/64bfd91))
+* **deps:** update dependency jsdom to v16.2.0 ([#501](https://github.com/arnaud-zg/react-lightsaber/issues/501)) ([e7813e3](https://github.com/arnaud-zg/react-lightsaber/commit/e7813e3))
+* **deps:** update dependency jsdom to v16.2.1 ([#523](https://github.com/arnaud-zg/react-lightsaber/issues/523)) ([1f257ea](https://github.com/arnaud-zg/react-lightsaber/commit/1f257ea))
+* **deps:** update dependency lint-staged to v10.0.4 ([#481](https://github.com/arnaud-zg/react-lightsaber/issues/481)) ([429a73e](https://github.com/arnaud-zg/react-lightsaber/commit/429a73e))
+* **deps:** update dependency lint-staged to v10.0.7 ([#483](https://github.com/arnaud-zg/react-lightsaber/issues/483)) ([fbbda63](https://github.com/arnaud-zg/react-lightsaber/commit/fbbda63))
+* **deps:** update dependency lint-staged to v10.0.8 ([#509](https://github.com/arnaud-zg/react-lightsaber/issues/509)) ([6350e95](https://github.com/arnaud-zg/react-lightsaber/commit/6350e95))
+* **deps:** update dependency rimraf to v3.0.1 ([#479](https://github.com/arnaud-zg/react-lightsaber/issues/479)) ([3897179](https://github.com/arnaud-zg/react-lightsaber/commit/3897179))
+* **deps:** update dependency rimraf to v3.0.2 ([#495](https://github.com/arnaud-zg/react-lightsaber/issues/495)) ([0367d39](https://github.com/arnaud-zg/react-lightsaber/commit/0367d39))
+* **deps:** update dependency rollup to v1.31.0 ([#485](https://github.com/arnaud-zg/react-lightsaber/issues/485)) ([4ed4dc2](https://github.com/arnaud-zg/react-lightsaber/commit/4ed4dc2))
+* **deps:** update dependency rollup to v1.31.1 ([#500](https://github.com/arnaud-zg/react-lightsaber/issues/500)) ([6f14b3c](https://github.com/arnaud-zg/react-lightsaber/commit/6f14b3c))
+* **deps:** update dependency rollup to v1.32.0 ([#513](https://github.com/arnaud-zg/react-lightsaber/issues/513)) ([022207a](https://github.com/arnaud-zg/react-lightsaber/commit/022207a))
+* **deps:** update dependency rollup to v2 ([#519](https://github.com/arnaud-zg/react-lightsaber/issues/519)) ([351a1f2](https://github.com/arnaud-zg/react-lightsaber/commit/351a1f2))
+* **deps:** update dependency rollup to v2.0.2 ([#521](https://github.com/arnaud-zg/react-lightsaber/issues/521)) ([43a7589](https://github.com/arnaud-zg/react-lightsaber/commit/43a7589))
+* **deps:** update dependency rollup to v2.0.5 ([#524](https://github.com/arnaud-zg/react-lightsaber/issues/524)) ([97a1386](https://github.com/arnaud-zg/react-lightsaber/commit/97a1386))
+* **deps:** update dependency rollup to v2.0.6 ([#526](https://github.com/arnaud-zg/react-lightsaber/issues/526)) ([306522e](https://github.com/arnaud-zg/react-lightsaber/commit/306522e))
+* **deps:** update dependency rollup-plugin-babel to v4.4.0 ([#522](https://github.com/arnaud-zg/react-lightsaber/issues/522)) ([cf6e7f0](https://github.com/arnaud-zg/react-lightsaber/commit/cf6e7f0))
+* **deps:** update dependency rollup-plugin-peer-deps-external to v2.2.2 ([#486](https://github.com/arnaud-zg/react-lightsaber/issues/486)) ([07ff6e7](https://github.com/arnaud-zg/react-lightsaber/commit/07ff6e7))
+* **deps:** update dependency rollup-plugin-sourcemaps to v0.5.0 ([#426](https://github.com/arnaud-zg/react-lightsaber/issues/426)) ([d1a7899](https://github.com/arnaud-zg/react-lightsaber/commit/d1a7899))
+* **deps:** update dependency rollup-plugin-typescript2 to v0.26.0 ([#497](https://github.com/arnaud-zg/react-lightsaber/issues/497)) ([e70851c](https://github.com/arnaud-zg/react-lightsaber/commit/e70851c))
+* **deps:** update dependency ts-jest to v25.1.0 ([#484](https://github.com/arnaud-zg/react-lightsaber/issues/484)) ([000d14a](https://github.com/arnaud-zg/react-lightsaber/commit/000d14a))
+* **deps:** update dependency ts-jest to v25.2.0 ([#489](https://github.com/arnaud-zg/react-lightsaber/issues/489)) ([fa5985a](https://github.com/arnaud-zg/react-lightsaber/commit/fa5985a))
+* **deps:** update dependency ts-jest to v25.2.1 ([#503](https://github.com/arnaud-zg/react-lightsaber/issues/503)) ([9c44f7b](https://github.com/arnaud-zg/react-lightsaber/commit/9c44f7b))
+* **deps:** update dependency tslint to v6 ([#525](https://github.com/arnaud-zg/react-lightsaber/issues/525)) ([03609a3](https://github.com/arnaud-zg/react-lightsaber/commit/03609a3))
+* **deps:** update dependency typescript to v3.8.2 ([#507](https://github.com/arnaud-zg/react-lightsaber/issues/507)) ([faa067d](https://github.com/arnaud-zg/react-lightsaber/commit/faa067d))
+* **deps:** update dependency typescript to v3.8.3 ([#515](https://github.com/arnaud-zg/react-lightsaber/issues/515)) ([d0d14dd](https://github.com/arnaud-zg/react-lightsaber/commit/d0d14dd))
+
 ### [0.1.37](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.36...v0.1.37) (2020-01-27)
 
 
