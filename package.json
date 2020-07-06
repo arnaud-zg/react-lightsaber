@@ -22,8 +22,8 @@
     "prebuild": "rimraf dist",
     "prerelease": "yarn run build:storybook && git add docs/",
     "release": "standard-version -a",
-    "test:coverage:report": "yarn run test:coverage && cat ./coverage/lcov.info | codacy-coverage",
-    "test:coverage": "yarn run test -- --coverage",
+    "test:coverage:report": "yarn run test:coverage && codecov -f coverage/*.json",
+    "test:coverage": "tsdx test --coverage",
     "test": "jest --env=jsdom --config jest.config.json",
     "watch:all": "npm-run-all --parallel watch:library watch:storybook watch:style",
     "watch:library": "rollup -c rollup.config.ts -w",
@@ -40,7 +40,6 @@
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$"
   },
   "devDependencies": {
-    "babel-preset-react-app": "9.1.2",
     "@storybook/react": "5.3.19",
     "@types/enzyme": "3.10.5",
     "@types/enzyme-adapter-react-16": "1.0.6",
@@ -54,7 +53,8 @@
     "@types/rollup-plugin-sourcemaps": "0.4.2",
     "@types/storybook__react": "4.0.2",
     "babel-loader": "8.1.0",
-    "codacy-coverage": "3.4.0",
+    "babel-preset-react-app": "9.1.2",
+    "codecov": "3.7.0",
     "colors": "1.4.0",
     "cross-env": "7.0.2",
     "css-loader": "3.6.0",
