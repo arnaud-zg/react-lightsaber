@@ -1,20 +1,16 @@
 # react-lightsaber
 
-Just a simple lightsaber npm repository
+Just a simple lightsaber hosted on npmjs
 
 ## Getting Started
 
 ## Why `react-lightsaber`?
 
-It was developped for a company, they need to make reusable component with a palette that can skin any component.
+I develop this library to be more confident with `rollup`, `storybook`, `gulp` and `sass`. Initially in the company I worked in, we need to create reusable component based on a palette that can skin any component. At first this project was a proof of concept, over time our internal library has become our design system used by 3 projects.
 
 ## Demo
 
 [Take a look on our storybook.](https://arnaud-zg.github.io/react-lightsaber/)
-
-## Table of Contents
-
-Coming soon ...
 
 ### Prerequisites
 
