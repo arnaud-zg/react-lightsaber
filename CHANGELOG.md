@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.41](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.40...v0.1.41) (2020-07-06)
+
+
+### 🔧 Chore
+
+* update README.md ([87496ea](https://github.com/arnaud-zg/react-lightsaber/commit/87496ead5cde9298aff3a6293e0136a7e3a952fc))
+
 ### [0.1.40](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.39...v0.1.40) (2020-07-06)
 
 
