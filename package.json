@@ -23,7 +23,7 @@
     "prerelease": "yarn run build:storybook && git add docs/",
     "release": "standard-version -a",
     "test:coverage:report": "yarn run test:coverage && codecov -f coverage/*.json",
-    "test:coverage": "tsdx test --coverage",
+    "test:coverage": "yarn test --coverage",
     "test": "jest --env=jsdom --config jest.config.json",
     "watch:all": "npm-run-all --parallel watch:library watch:storybook watch:style",
     "watch:library": "rollup -c rollup.config.ts -w",
