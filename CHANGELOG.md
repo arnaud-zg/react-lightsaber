@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.41...v1.0.0) (2020-07-06)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/jest to v26.0.4 ([#649](https://github.com/arnaud-zg/react-lightsaber/issues/649)) ([2af172a](https://github.com/arnaud-zg/react-lightsaber/commit/2af172a45f0864b0a5515d61054f223e8b8a966c))
+* **deps:** update dependency @types/node to v10.17.26 ([#638](https://github.com/arnaud-zg/react-lightsaber/issues/638)) ([7e7bc02](https://github.com/arnaud-zg/react-lightsaber/commit/7e7bc02b9b8a9102edba7c3b261aebb2377c5354))
+* **deps:** update dependency ts-jest to v26 ([#636](https://github.com/arnaud-zg/react-lightsaber/issues/636)) ([f88b36b](https://github.com/arnaud-zg/react-lightsaber/commit/f88b36b5027d977ef0a80ff53ea31c2c4de23fef))
+* update coverage threshold configuration ([2fe769d](https://github.com/arnaud-zg/react-lightsaber/commit/2fe769d94db2d07efdfeafcf9ee4c13652040852))
+* update test coverage command ([f40ad00](https://github.com/arnaud-zg/react-lightsaber/commit/f40ad00f01179caa53fe9aa90dfd227364b04d18))
+* update travis config ([5442860](https://github.com/arnaud-zg/react-lightsaber/commit/5442860ca44e8cc904390883fe305c56b40d892f))
+* use codecov for code coverage ([4f5bc1e](https://github.com/arnaud-zg/react-lightsaber/commit/4f5bc1edfb5578a5fc35d21991817ae1fa6817b1))
+* **deps:** update dependency @storybook/react to v5.3.19 ([#640](https://github.com/arnaud-zg/react-lightsaber/issues/640)) ([0b63f41](https://github.com/arnaud-zg/react-lightsaber/commit/0b63f41d0959a03ceb5db0c1699c0cf0d58306b2))
+* **deps:** update dependency @types/jest to v26 ([#642](https://github.com/arnaud-zg/react-lightsaber/issues/642)) ([5fe3fe1](https://github.com/arnaud-zg/react-lightsaber/commit/5fe3fe166d3a65e8f636692ca7f0aba2e0910e38))
+* **deps:** update dependency @types/react to v16.9.41 ([#643](https://github.com/arnaud-zg/react-lightsaber/issues/643)) ([e725c65](https://github.com/arnaud-zg/react-lightsaber/commit/e725c65b3f9a0ce3b442bb7caee42737c8d172fe))
+* **deps:** update dependency css-loader to v3.6.0 ([#644](https://github.com/arnaud-zg/react-lightsaber/issues/644)) ([40d0c42](https://github.com/arnaud-zg/react-lightsaber/commit/40d0c4220594340a5b4d36ac20a7d419058e2443))
+* **deps:** update dependency lint-staged to v10.2.11 ([#637](https://github.com/arnaud-zg/react-lightsaber/issues/637)) ([16dd91f](https://github.com/arnaud-zg/react-lightsaber/commit/16dd91fa3b82668344cd1938b51a7e8ca292412e))
+* **deps:** update dependency rollup to v2.20.0 ([#635](https://github.com/arnaud-zg/react-lightsaber/issues/635)) ([a78dd57](https://github.com/arnaud-zg/react-lightsaber/commit/a78dd5750c1fc8f5854a30eb7e5768be4c38961d))
+* **deps:** update dependency rollup-plugin-filesize to v9.0.2 ([#645](https://github.com/arnaud-zg/react-lightsaber/issues/645)) ([778998e](https://github.com/arnaud-zg/react-lightsaber/commit/778998eb1895803cd0632ac96a02af80a8a721e7))
+* **deps:** update dependency rollup-plugin-peer-deps-external to v2.2.3 ([#647](https://github.com/arnaud-zg/react-lightsaber/issues/647)) ([8d661a3](https://github.com/arnaud-zg/react-lightsaber/commit/8d661a30838d1074e27057a038ab4999142148ff))
+* **deps:** update dependency sass-loader to v9 ([#648](https://github.com/arnaud-zg/react-lightsaber/issues/648)) ([b0783b7](https://github.com/arnaud-zg/react-lightsaber/commit/b0783b78f6ffb353543badb223f5cab36f6437c7))
+* **deps:** update dependency ts-node to v8.10.2 ([#641](https://github.com/arnaud-zg/react-lightsaber/issues/641)) ([488f5c5](https://github.com/arnaud-zg/react-lightsaber/commit/488f5c5c484a98a7db232b0a2c4a4372018b7f56))
+* **deps:** update dependency typescript to v3.9.6 ([#639](https://github.com/arnaud-zg/react-lightsaber/issues/639)) ([67827f4](https://github.com/arnaud-zg/react-lightsaber/commit/67827f46241389fc4390d0f24c68fdadc9c4d828))
+
 ### [0.1.41](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.40...v0.1.41) (2020-07-06)
 
 
