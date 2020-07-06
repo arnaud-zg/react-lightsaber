@@ -104,32 +104,6 @@ exports[`Component.Lightsaber() should render component with owner: DARTH_VADER 
 </div>
 `;
 
-exports[`Component.Lightsaber() should render component with owner: IMPERIAL_KNIGHTS 1`] = `
-<div
-  className="lightsaber-component"
->
-  <input
-    defaultChecked={false}
-    id="1"
-    onClick={[Function]}
-    type="checkbox"
-  />
-  <label
-    className="lightsaber-component__controller"
-    htmlFor="1"
-  >
-    <span
-      className="lightsaber-component__switch"
-    >
-      ¦¦¦¦
-    </span>
-  </label>
-  <span
-    className="lightsaber-component__blade obedience"
-  />
-</div>
-`;
-
 exports[`Component.Lightsaber() should render component with owner: KYLO_REN 1`] = `
 <div
   className="lightsaber-component"
