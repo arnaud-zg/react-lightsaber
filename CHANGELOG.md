@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.40](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.39...v0.1.40) (2020-07-06)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency jest to v26.1.0 ([#646](https://github.com/arnaud-zg/react-lightsaber/issues/646)) ([7af4c67](https://github.com/arnaud-zg/react-lightsaber/commit/7af4c67332d97a1b88a6597b18ba350e63f8c4e8))
+
+
+### 🐛 Bug Fixes
+
+* deprecate imperial knights ([566fb35](https://github.com/arnaud-zg/react-lightsaber/commit/566fb3557b98fbf2311d052d295fb7549191c790))
+* visual regresssion on lightsaber wrist ([302040e](https://github.com/arnaud-zg/react-lightsaber/commit/302040e28cccd7bffbf11abf65d87fd303eccb93))
+
 ### [0.1.39](https://github.com/arnaud-zg/react-lightsaber/compare/v0.1.38...v0.1.39) (2020-05-16)
 
 
