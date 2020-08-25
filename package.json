@@ -40,7 +40,7 @@
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$"
   },
   "devDependencies": {
-    "@storybook/react": "6.0.16",
+    "@storybook/react": "6.0.18",
     "@types/enzyme": "3.10.5",
     "@types/enzyme-adapter-react-16": "1.0.6",
     "@types/jest": "26.0.10",
