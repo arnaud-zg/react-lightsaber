@@ -45,7 +45,7 @@
     "@types/enzyme-adapter-react-16": "1.0.6",
     "@types/jest": "26.0.14",
     "@types/node": "10.17.39",
-    "@types/react": "16.9.51",
+    "@types/react": "16.9.52",
     "@types/react-test-renderer": "16.9.3",
     "@types/rollup-plugin-commonjs": "9.2.0",
     "@types/rollup-plugin-json": "3.0.2",
