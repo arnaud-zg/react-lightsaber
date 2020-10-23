@@ -67,7 +67,7 @@
     "gulp-size": "3.0.0",
     "gulp-sizereport": "1.2.1",
     "husky": "4.3.0",
-    "jest": "26.6.0",
+    "jest": "26.6.1",
     "jsdom": "16.4.0",
     "lint-staged": "10.4.2",
     "node-sass": "4.14.1",
