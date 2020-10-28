@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@storybook/react": "6.0.27",
-    "@types/enzyme": "3.10.7",
+    "@types/enzyme": "3.10.8",
     "@types/enzyme-adapter-react-16": "1.0.6",
     "@types/jest": "26.0.15",
     "@types/node": "10.17.44",
