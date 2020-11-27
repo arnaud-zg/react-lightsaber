@@ -52,7 +52,7 @@
     "@types/rollup-plugin-node-resolve": "4.0.0",
     "@types/rollup-plugin-sourcemaps": "0.4.2",
     "@types/storybook__react": "4.0.2",
-    "babel-loader": "8.2.1",
+    "babel-loader": "8.2.2",
     "babel-preset-react-app": "10.0.0",
     "codecov": "3.8.1",
     "colors": "1.4.0",
