@@ -86,7 +86,7 @@
     "rollup-plugin-sourcemaps": "0.6.3",
     "rollup-plugin-typescript2": "0.29.0",
     "rollup-plugin-uglify": "6.0.4",
-    "sass-loader": "10.1.1",
+    "sass-loader": "11.0.1",
     "standard-version": "9.1.1",
     "style-loader": "2.0.0",
     "ts-jest": "26.4.4",
