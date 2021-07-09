@@ -48,7 +48,7 @@
     "@types/react": "17.0.14",
     "@types/react-test-renderer": "17.0.1",
     "@types/rollup-plugin-commonjs": "9.2.0",
-    "@types/rollup-plugin-json": "3.0.2",
+    "@types/rollup-plugin-json": "3.0.3",
     "@types/rollup-plugin-node-resolve": "4.0.0",
     "@types/rollup-plugin-sourcemaps": "0.4.2",
     "@types/storybook__react": "4.0.2",
