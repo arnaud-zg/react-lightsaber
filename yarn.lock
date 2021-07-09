@@ -3868,10 +3868,10 @@
     "@types/node" "*"
     rollup "^0.63.5"
 
-"@types/rollup-plugin-json@3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@types/rollup-plugin-json/-/rollup-plugin-json-3.0.2.tgz#1153136a515ed4fbb7ef214ace496f5fc3ed7796"
-  integrity sha512-eTRym5nG4HEKDR/KrTnCMYwF7V0hgVjEesvtJCK3V8ho/aT0ZFRFgsDtx38VarM30HCsN372+i4FKYwnhcwiVA==
+"@types/rollup-plugin-json@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@types/rollup-plugin-json/-/rollup-plugin-json-3.0.3.tgz#a3dbf32e3c9e0e7bc34a8bce2be6210ed331cf49"
+  integrity sha512-5Y5fTYRCXS1llyLzQ3X1XhDRpw/31jkfWOMpDRgz000d9ABOsdLWDg/f6mqwT8BKGYV/+6tje4uGQnuebuk7dg==
   dependencies:
     "@types/node" "*"
     rollup "^0.63.4"
