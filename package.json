@@ -87,7 +87,7 @@
     "rollup-plugin-typescript2": "0.30.0",
     "rollup-plugin-uglify": "6.0.4",
     "sass-loader": "12.4.0",
-    "standard-version": "9.3.2",
+    "commit-and-tag-version": "9.5.0",
     "style-loader": "3.3.1",
     "ts-jest": "27.0.7",
     "ts-node": "10.4.0",
